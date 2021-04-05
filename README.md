@@ -1,2 +1,2 @@
 # AjedrezBD
-Proyecto de Base de Datos, sobre torneo de ajedrez además de muchísima práctica SQL.
+Proyecto de Base de Datos, sobre torneo de ajedrez además de muchísima práctica de todo tipo.
