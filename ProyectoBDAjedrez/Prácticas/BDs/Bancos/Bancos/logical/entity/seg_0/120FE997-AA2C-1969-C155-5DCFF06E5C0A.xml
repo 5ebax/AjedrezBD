@@ -1,0 +1,155 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="120FE997-AA2C-1969-C155-5DCFF06E5C0A" name="BAN SUCURSAL">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>99418875-C4E1-034C-EF3C-990B06F50683</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ENTIDAD" id="A43D1CE9-93A3-ED75-5964-AFA407A952AC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>6BE2C93C-ED67-2F63-C993-A17F6FE2B64A</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<referedAttribute>283CED69-54BD-62CA-008D-8FFCFB57A2C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID SUCURSAL" id="23E0BBB1-D067-AA0A-5F92-842B055D75D7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>D94DBA37-9167-0F4B-CAD0-9F59BFF355CF</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CIUDAD" id="4747806E-4F25-7E9B-9FB9-684EFA6D4118">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>FAAFE85C-E7A7-B313-777D-92890C183F84</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECCION" id="20C86940-38D0-2798-7E5C-1E6A28B13959">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>BFD10BF6-A075-B9E5-F032-714BE1C71C27</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="B9B8C360-8893-E050-272E-D0512A56CE2A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>23E0D540-BBD9-BBB9-AC31-8EB8F3FE0559</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA APERTURA" id="9862FFF6-1D6F-D7AC-19A0-05A1B92D27CC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>BDF64152-448E-C64E-E5AB-8B232DF2DD75</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM CAJEROS" id="110605C2-9C3A-8775-2227-322659A4D601">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>46F32241-C87A-D5C3-D95F-D942F45A0F3E</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DIRECTOR" id="A5A80C94-6550-6850-2A4A-3D5FCC7294D4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>35F0E7EB-9287-9DE8-8CFC-3BDEF907DB31</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="51FF86E9-43A7-958D-642A-4DB65E2767E9" name="BAN SUCURSAL PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>1EF1C3D0-4AD3-4E56-1F31-78DD2AAF3AD1</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A43D1CE9-93A3-ED75-5964-AFA407A952AC</attributeRef>
+<attributeRef>23E0BBB1-D067-AA0A-5F92-842B055D75D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3020E65D-D057-0255-4910-54FE40ADBB27" containerWithKeyObject="D59024D3-8868-1496-749E-D56DFED08826" localFKIndex="07248A84-4B64-F083-ACFA-D3EB0DCD5A6B" name="BAN_CUEN_BAN_CLIEN_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>58D4D89C-F12A-742C-CF73-33AE8DD52CFC</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<referredTableLongName>BAN_CLIENTES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2F217ECB-C1BB-DF6E-29FC-1E5BDCF8B542</referredTableID>
+<keyObject>85B81689-DE15-3828-431F-19B314BEC290</keyObject>
+<referredKeyID>85B81689-DE15-3828-431F-19B314BEC290</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLIENTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

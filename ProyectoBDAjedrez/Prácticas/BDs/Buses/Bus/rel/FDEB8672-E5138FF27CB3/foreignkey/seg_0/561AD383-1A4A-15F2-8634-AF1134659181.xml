@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="561AD383-1A4A-15F2-8634-AF1134659181" containerWithKeyObject="3B4EAD15-81F3-966B-0580-C5EE9407D5E4" localFKIndex="49797330-952E-01C2-0AE9-E06EA260F345" name="BUS_BUS_COND_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>1267718F-7A59-8EB8-BD70-F7FF5BB108E4</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<referredTableLongName>BUS_CONDUCTOR</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>371ECE39-33A3-DF73-8E0B-D0576BF452F7</referredTableID>
+<keyObject>8B442C6E-E55A-48FF-171E-1BA6A1A9F9DC</keyObject>
+<referredKeyID>8B442C6E-E55A-48FF-171E-1BA6A1A9F9DC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DNI_COND</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D16ACDC3-8599-0260-FD11-C70704E7DCCA" name="BUS">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>0C87C12C-6608-5DB9-DC60-A7BE7EA8BEC4</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MATRICULA" id="9791E9CD-36C2-59C2-23A4-C3ADBE4A98F7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>5E94A22F-1981-DCC9-34BD-3C1B18F034A1</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA COMPRA" id="DB41EFB5-5154-9D0D-B567-537DD9867282">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>67941EE2-C0E6-0A6C-52A4-E374451AC42A</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO" id="EA283B37-180A-B423-C8FA-F0E4FCA934A9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>353BCE01-1467-7EB7-2002-1CB6D9DDF30B</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="KM ULT REV" id="1EB955B5-1955-2A5B-D0E6-078A08B7A146">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>44779274-2FCC-22F6-404F-8B3F5315E59F</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,7,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI COND" id="E27FBAF7-714C-9E7F-404D-9D6A4882E1DA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>1267718F-7A59-8EB8-BD70-F7FF5BB108E4</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<referedAttribute>7DE13B5D-4F03-2DF9-8547-F20DAE907A51</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA BUS" id="A47B2AB8-3362-222F-FE76-B0BB98710FAF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>1F4752F7-6646-3050-B902-0564A7F959C0</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="MARCA BUS1" id="713E6FF8-0EC4-F3E2-7C6C-E5170034B7F5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:37 UTC</createdTime>
+<generatorID>12FF725D-5FA4-BE5F-D612-30AD69C3F60C</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<referedAttribute>DF1A458C-3BF7-DBB7-2CB7-3B9E7F6DB7C9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C06C155D-E3F6-6345-A665-174D23A4EA04" name="BUS PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>BED74CC4-82E3-DD41-DB0E-1B61923A0879</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9791E9CD-36C2-59C2-23A4-C3ADBE4A98F7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

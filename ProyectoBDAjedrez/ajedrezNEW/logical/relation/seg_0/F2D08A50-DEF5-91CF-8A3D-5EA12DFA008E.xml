@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PART_ARBI_FK" directorySegmentName="seg_0" id="F2D08A50-DEF5-91CF-8A3D-5EA12DFA008E">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>27C13057-03A1-AFC2-A406-32D55FF4F13F</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<sourcePk>96CDE116-B792-89BC-7413-5A76B27B911A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>53B58D54-EC3F-2912-9A57-833C8FDC423E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1C19E1AC-23B3-4961-1EF2-E779EDB08010</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

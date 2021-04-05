@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_TRAS_CLUB_SALIDA_FK1" directorySegmentName="seg_0" id="3D782CF2-98FA-64AD-3B86-CF52CCB1EC3A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>84895080-8C9F-DB1D-B0B4-BC86E1298909</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<sourcePk>752C2AC4-41F1-99BB-DB4C-5666C7A32BB5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89D27BF5-2F8F-E322-2577-30F30FDFEAD2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64F1052E-65CD-9743-6696-BE09B6BBC5CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

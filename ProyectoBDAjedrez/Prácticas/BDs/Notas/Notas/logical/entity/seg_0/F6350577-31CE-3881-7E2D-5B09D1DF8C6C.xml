@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F6350577-31CE-3881-7E2D-5B09D1DF8C6C" name="CICLO">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>BFACED27-9C72-774B-F28B-56CF87CAC01B</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CICLO" id="29D3887A-2957-58AD-3F75-A37847DDC218">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>A605B929-262F-291A-64CB-FAAC45CE9D92</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DURACION" id="29228C7B-D7CE-6C38-CAE3-C503089785C7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>FCB61ADC-A9EC-305F-7CBD-859FF8E9F081</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RAMA" id="ED314F44-CE59-CA7A-BBB0-AC1D539FF59B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>1CB41531-A5AE-6F59-72BE-BE72A45C9B6B</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B77309F2-C6CD-5EA3-99C8-58B66584C447" name="CICLO PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>E20AC45A-4FEE-D758-9EEF-08B449C22489</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>29D3887A-2957-58AD-3F75-A37847DDC218</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

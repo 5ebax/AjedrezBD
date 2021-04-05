@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7E6A97B9-54A7-17B0-5E7B-3B4DD9FF4BA9" name="TORNEOS">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>A9980067-6F91-677D-83E2-69620D26C3BE</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TORNEO" id="CB6388F5-478F-C4E5-BD48-917550E7B381">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_RANK_TOUR" id="C45DD4A2-A17F-60D2-A0AD-3B010FA41DA0">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>8A8832D0-82CC-B7B5-7D69-152600C5ED0A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8CD0D97-EF5B-10C9-31F8-8D4BE6F33C18" referredColumn="034DBF24-7037-247F-872C-869E4DA72860"/>
+</associations>
+</Column>
+<Column name="ID_CLUB_ORG" id="240B34A4-22BE-26BB-011A-696055B2D7BA">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>28CDA922-5E4D-ACA9-F0CE-ED7E644E82C4</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="79EFC338-B354-0AE3-E56C-45493B43173B" referredColumn="25382F96-D3D6-50CD-5C41-64D6CCD47C59"/>
+</associations>
+</Column>
+<Column name="PRER_TORNEO" id="E37ABE3D-2141-435A-25E4-8665B3250BDD">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>E9120AD8-9051-C6C2-B591-0A7324502E0A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BFF0043A-A0F8-9CE3-6CCC-1E3FB4316AF4" referredColumn="CB6388F5-478F-C4E5-BD48-917550E7B381"/>
+</associations>
+</Column>
+<Column name="NOM_TORNEO" id="49738470-225B-BCA7-C15F-7E31BF9A3B30">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>6DC5886B-2BA9-83A3-2A7B-8C27F9C3D0B8</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TIPO_TORNEO" id="C722021D-7B53-CAEF-B519-80A161DD0A83">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>617C8BCD-595A-8BA4-82FC-CFB46E07A609</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECH_INICIO" id="5EA42810-42FA-224A-EE94-3D5727CEE7B1">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>0D1356B1-5669-BC80-EB03-8C1F88A8BA5D</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECH_FIN" id="0CAB1E17-B678-B28B-F1F5-A911536594EA">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>355B627C-867B-FCDD-8BD1-AA3497E72DFD</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="142AA6FC-9F98-F4D1-F197-850533FF1F50" name="TORNEOS_PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>74AC68A7-811B-E42E-C994-7AA4B8D7F706</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB6388F5-478F-C4E5-BD48-917550E7B381"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="59E6E4A6-FC09-6050-9475-2ADCA1467280" name="TORN_CLUB_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>7657034F-181C-F71E-FA73-8EBF8CC9506A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="240B34A4-22BE-26BB-011A-696055B2D7BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3CC8E003-B46C-CF1A-91EF-7985A8989C29" name="TOR_RANK_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>2D305EA4-302E-3A38-CECE-D6B7107429E9</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C45DD4A2-A17F-60D2-A0AD-3B010FA41DA0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C37D2C81-D784-8AE5-BF71-7B8BAEDAA674" name="TOR_TORN_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>62CE1CD4-F967-4084-9405-970903764E39</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E37ABE3D-2141-435A-25E4-8665B3250BDD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

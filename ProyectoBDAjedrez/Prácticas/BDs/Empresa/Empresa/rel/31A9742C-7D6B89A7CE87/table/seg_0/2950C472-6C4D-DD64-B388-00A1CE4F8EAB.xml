@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2950C472-6C4D-DD64-B388-00A1CE4F8EAB" schemaObject="E06DF6E3-7BA1-6EFC-38EF-6B4DF77B591A" name="EMPLEADO">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>USU1</sourceObjSchema>
+<sourceObjName>EMPLEADO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="2C745EA6-4E2D-1062-A2C2-4F571DC2A83F">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>DNI</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="948B5387-9ACA-F51F-319C-BC5F2B210F73">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_ALTA" id="35661248-8308-86CA-8431-7772FAD96AD6">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>FECHA_ALTA</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<constraintName>EMPLEADO_FECHA_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="FECHA_ALTA &lt;= TO_DATE(&apos;2018-10-12&apos;,&apos;YYYY-MM-DD&apos;)"/>
+<implementationDef dbType="Oracle Database 11g" definition="FECHA_ALTA &lt;= TO_DATE(&apos;2018-10-12&apos;,&apos;YYYY-MM-DD&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="0B86EF7F-A5C1-6486-0DC2-047FB14A3699">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>SALARIO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DPTO" id="85F2F4E1-CB0F-BECF-FE29-D409CAD0FEE7">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>ID_DPTO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE67E7F8-6588-4EBE-3B14-5DC7E0CBE7E9" referredColumn="0C22CC6C-8DB9-8F3D-1B6D-4610568D1004"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="67FB9427-B336-07C8-4C1D-288CF8CE2F15" name="EMPLEADO_PK">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>USU1</sourceObjSchema>
+<sourceObjName>EMPLEADO_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C745EA6-4E2D-1062-A2C2-4F571DC2A83F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65AB5FBF-08E1-FD60-92A9-A71AB4354BD0" schemaObject="E06DF6E3-7BA1-6EFC-38EF-6B4DF77B591A" name="EMPLEADO_PK">
+<sourceConnName>USU1</sourceConnName>
+<sourceObjSchema>USU1</sourceObjSchema>
+<sourceObjName>EMPLEADO_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2C745EA6-4E2D-1062-A2C2-4F571DC2A83F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="01E6FF74-A9B5-6E93-C38F-768D5670B6C8" name="EMPLEADO_DPTO_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="85F2F4E1-CB0F-BECF-FE29-D409CAD0FEE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

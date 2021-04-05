@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TORN_TORN_FK" directorySegmentName="seg_0" id="62CE1CD4-F967-4084-9405-970903764E39">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>E49C4BE0-BEBD-B38D-AC91-565D66B123F8</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<targetPk>74AC68A7-811B-E42E-C994-7AA4B8D7F706</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9980067-6F91-677D-83E2-69620D26C3BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A9980067-6F91-677D-83E2-69620D26C3BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

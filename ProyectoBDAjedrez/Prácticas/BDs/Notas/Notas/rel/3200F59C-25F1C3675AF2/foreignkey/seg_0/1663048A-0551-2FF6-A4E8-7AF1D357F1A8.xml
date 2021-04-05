@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1663048A-0551-2FF6-A4E8-7AF1D357F1A8" containerWithKeyObject="5B1E1047-5293-108F-022D-B2D5B82B2F14" localFKIndex="CFF81F7F-5148-28BA-8F5C-4CB28CA5CB8D" name="PLAN_ESTUDIOS_MODULO_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>1FC76D49-3DE5-9949-03E6-14FB37BBBF95</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<referredTableLongName>MODULO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>020A29FE-9902-4BA2-5951-0AC7004F1662</referredTableID>
+<keyObject>2ACD6B05-76F7-B822-777E-E9E3655656A1</keyObject>
+<referredKeyID>2ACD6B05-76F7-B822-777E-E9E3655656A1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MODULO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

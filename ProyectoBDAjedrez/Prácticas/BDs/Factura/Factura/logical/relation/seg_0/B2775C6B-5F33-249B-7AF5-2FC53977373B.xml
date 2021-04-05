@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FAC_CABECERA_CLIEN_FK1" directorySegmentName="seg_0" id="B2775C6B-5F33-249B-7AF5-2FC53977373B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>4DCB99B2-598D-1FCC-7C30-451653765454</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<sourcePk>90C6386D-F4A1-88D2-A488-208F198C9E73</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>38646832-28AF-4D14-8E8F-D353B67E90CE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E9A2D88D-A3A7-2473-5908-40A824927948</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENTE" directorySegmentName="seg_0" id="0595258C-1869-82F1-06CA-3273DF56FC14">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7DFEE2A6-BA74-516A-1812-B899D12EBE53</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOMBRE" id="03D745D8-526E-F84E-4D49-B4797136652E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGISTRO" id="35FE277E-12D8-8881-BD84-F75CABA73FCB">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECH_NACI" id="3CC04F4D-1EE1-D004-DA35-E733739528BE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CP" id="4663EB53-61F2-2351-5A46-2EDB83D02E3D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLIENTE" id="6ABAC563-CFF5-B8BA-D8CC-F742552A80A5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI" id="95BB179B-0B32-048D-15F1-491DA518B280">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELEFONO" id="E2AA4DF2-97F2-B088-8D74-EB53CE6797E0">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLIENTE_PK" id="7A3E0B72-61A8-68C8-6887-C2FA5336A1E9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLIENTE_DNI_UN" id="BEC6E5EC-1B70-7F86-4DBA-E8EF9596895F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTE_PK" id="F5B09FDD-6D7A-2838-4B2D-C380D2970551">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<existingIndex>7A3E0B72-61A8-68C8-6887-C2FA5336A1E9</existingIndex>
+<indexSegment>16596719-BA3B-0B34-647D-1A14A12EE620</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="CLIENTE_DNI_UN" id="201C8789-D86C-CA67-33DE-32564B4354FB">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<existingIndex>BEC6E5EC-1B70-7F86-4DBA-E8EF9596895F</existingIndex>
+<indexSegment>16596719-BA3B-0B34-647D-1A14A12EE620</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

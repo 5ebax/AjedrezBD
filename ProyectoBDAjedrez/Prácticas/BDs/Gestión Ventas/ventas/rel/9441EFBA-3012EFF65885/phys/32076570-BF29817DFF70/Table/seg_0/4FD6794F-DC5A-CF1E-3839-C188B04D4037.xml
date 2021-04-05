@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPARTAMENTO" directorySegmentName="seg_0" id="4FD6794F-DC5A-CF1E-3839-C188B04D4037">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7DFEE2A6-BA74-516A-1812-B899D12EBE53</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NUM_VEND" id="388A82F9-FF34-5693-69B9-B37D397FC200">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOM_DEPART" id="45ED6739-D1F1-A0F0-C0AA-23DD0B18EB8C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_EMP_JEF" id="5B129322-F2EA-48EE-1FA2-B3BB1D85D5E9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_DEPART" id="6ED95E94-583C-5902-6CFB-959DD7E8F5BE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPARTAMENTO_PK" id="921AE8C7-E9B1-5975-96AD-A2FD5EB2A888">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+</IndexProxy>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPARTAMENTO__IDX" id="A9088EE7-D927-3AB7-8D6B-8CABD2C995EF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DEPAR_EMP_FK" id="ADA0E88B-4FE3-4DEF-F809-7C278B18E04D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTAMENTO_PK" id="0D01DAB0-BD92-7AEB-988E-A9714EE010CE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<existingIndex>921AE8C7-E9B1-5975-96AD-A2FD5EB2A888</existingIndex>
+<indexSegment>16596719-BA3B-0B34-647D-1A14A12EE620</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

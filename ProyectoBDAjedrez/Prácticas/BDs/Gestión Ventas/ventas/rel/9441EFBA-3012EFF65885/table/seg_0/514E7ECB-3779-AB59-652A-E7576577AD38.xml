@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="514E7ECB-3779-AB59-652A-E7576577AD38" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="PROVEEDOR">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>PROVEEDOR</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PROV" id="F2F65670-77EE-D52D-15A9-A29AF79DCEBA">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>PROVEEDOR</sourceObjSchema>
+<sourceObjName>ID_PROV</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_PROV" id="B76660AB-A5E9-EE38-A47E-B8E9127BCC2E">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>PROVEEDOR</sourceObjSchema>
+<sourceObjName>NOM_PROV</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TEL_PROV" id="FC546451-A4D1-6952-3460-EEE2A23D10CB">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>PROVEEDOR</sourceObjSchema>
+<sourceObjName>TEL_PROV</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B5218BDB-D600-4E51-26AF-0CD818958302" name="PROVEEDOR_PK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>PROVEEDOR_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F65670-77EE-D52D-15A9-A29AF79DCEBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36DEC3D3-56B7-0536-3549-7D292D74645A" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="PROVEEDOR_PK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>PROVEEDOR_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2F65670-77EE-D52D-15A9-A29AF79DCEBA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

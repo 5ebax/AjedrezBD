@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16F534CD-7070-D101-1B27-6374D4A96BF4" name="F_TRASPASOS">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>64F1052E-65CD-9743-6696-BE09B6BBC5CD</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRASPASO" id="88709445-24AF-B951-C8C5-EBA540B61CED">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>9E545E0E-32B2-ADB9-8AFC-963C63EE12D7</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="N_FEDERACION" id="77B1CFF1-9476-D591-D666-6658E0CDA109">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>1CD30962-005A-F740-A2E6-ED26D6221BEE</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D692B747-83B8-F5D6-5D1B-1A9362BB976B" referredColumn="D5EFD3FE-417C-0D11-D481-5DCBF208F7A0"/>
+</associations>
+</Column>
+<Column name="ID_CLUB_SALIDA" id="0C6D48CE-32E7-DEDD-17AB-2762A25BA18C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>E34E041F-B81C-28B6-9374-2D460838CE5E</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0D543CD-5DF6-5291-03CB-B73784FEFDF4" referredColumn="8220CC46-A6E9-BB07-52EC-294B5230B41F"/>
+</associations>
+</Column>
+<Column name="ID_CLUB_LLEGADA" id="1143398E-E52B-30AD-4887-F07ADF936892">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>F1E62919-F63E-55FC-64B4-DEC94EB415BA</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECFE9DB0-9F7F-7C87-3BC1-EDABAAAC46BF" referredColumn="8220CC46-A6E9-BB07-52EC-294B5230B41F"/>
+</associations>
+</Column>
+<Column name="FEC_TRASPASO" id="73629529-CB39-D910-32D2-DEAE197C975D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>D4DD4A31-DC2C-FF20-B0B1-8D23AA6EF905</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A1B6DFE5-085D-1333-D932-7CE0173E6989" name="F_TRASPASOS_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>9E75B33F-2AA9-2E10-FCB2-395BBB853B11</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88709445-24AF-B951-C8C5-EBA540B61CED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C36FE49-6AEC-2494-71BF-00E056A0B349" name="F_TRAS_F_CLUBES_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>C8D9741C-E4DA-E3EF-47EE-D3CD02ABC91F</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1143398E-E52B-30AD-4887-F07ADF936892"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27633D25-6F13-BD32-2CA2-8625CB861099" name="F_TRAS_F_CLUBES_FKv2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>3D782CF2-98FA-64AD-3B86-CF52CCB1EC3A</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C6D48CE-32E7-DEDD-17AB-2762A25BA18C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="798AAEE5-A62C-02D8-6E25-A5DB2D635AB7" name="F_TRAS_F_JUGADORES_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>8B0788DB-2D3E-FB7A-CFDA-C958E767C5E1</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="77B1CFF1-9476-D591-D666-6658E0CDA109"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

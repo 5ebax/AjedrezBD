@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="0F317207-B2B3-BFA5-B928-0047ACB46929" name="DEPARTAMENTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01AA3691-83A8-E488-A579-AE3D0F0C4239" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4481189B-0D77-88BC-3348-6F6D6E3A3314" name="EMPLEADO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="01AA3691-83A8-E488-A579-AE3D0F0C4239" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="BCB66AF4-39EA-A885-4916-5ABF4A0EE3AC" name="EMPLEADO_DPTO_FK" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="01AA3691-83A8-E488-A579-AE3D0F0C4239" propertySourceId="0F317207-B2B3-BFA5-B928-0047ACB46929" propertyTargetId="4481189B-0D77-88BC-3348-6F6D6E3A3314"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

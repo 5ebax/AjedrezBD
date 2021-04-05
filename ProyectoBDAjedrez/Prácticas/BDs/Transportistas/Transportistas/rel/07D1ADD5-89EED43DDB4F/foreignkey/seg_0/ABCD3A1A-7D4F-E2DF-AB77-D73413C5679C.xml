@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABCD3A1A-7D4F-E2DF-AB77-D73413C5679C" containerWithKeyObject="364F45BE-87E4-AC61-B8D2-1BE9F2677DA7" localFKIndex="F74592FE-B558-E60F-F548-8404C2A7F81F" name="TR_TRANS_TR_OFI_FKv2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>334386E6-1381-0B7B-09AF-97F1652E7855</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<referredTableLongName>TR_OFICINA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>FFCD3071-02B1-2716-C056-573B78420923</referredTableID>
+<keyObject>C74CEB9E-A05B-E14F-9744-6BA0F00905D2</keyObject>
+<referredKeyID>C74CEB9E-A05B-E14F-9744-6BA0F00905D2</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>ID_OFICINA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

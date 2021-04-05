@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BAN_SUCURSA_ENTIDADL_FK" directorySegmentName="seg_0" id="6BE2C93C-ED67-2F63-C993-A17F6FE2B64A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>FC71D014-E746-24DF-CD3C-184042FA688A</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<sourcePk>DAACAAA0-FE71-4DD7-0EE1-4BE5F3520558</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>95D3AA90-8108-ABD2-217B-0205A94412AA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>120FE997-AA2C-1969-C155-5DCFF06E5C0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

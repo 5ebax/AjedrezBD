@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" directorySegmentName="seg_0" id="D3567355-D7AD-BBAB-0C62-788AAAAE5B07" name="Herencia">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<mandatory>false</mandatory>
+<reverseArc>true</reverseArc>
+<table>7E6A97B9-54A7-17B0-5E7B-3B4DD9FF4BA9</table>
+<discriminatorColumn>C722021D-7B53-CAEF-B519-80A161DD0A83</discriminatorColumn>
+<fkeys>
+<fkeyID>C64F0018-1815-09DE-6BD2-AE09F7FA8883</fkeyID>
+<fkeyID>4F72DCBB-16B6-724C-97C0-426FA68193FA</fkeyID>
+<fkeyID>B7D1200D-046E-3159-3E25-766FEF7D76FD</fkeyID>
+</fkeys>
+</FKArc>

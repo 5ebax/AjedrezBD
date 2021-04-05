@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9A2D88D-A3A7-2473-5908-40A824927948" name="FAC CABECERA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>618CB24A-C343-A45A-0B68-ECFBA10712E1</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID FACTURA" id="9E6B762D-F063-17B5-818B-EFB6F358879E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>E1A1A476-D6DE-56B7-98FA-C2138F93A92C</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CLIENTE" id="8136FAA3-FACB-4874-F413-E4F9AFF25E0E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>B2775C6B-5F33-249B-7AF5-2FC53977373B</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<referedAttribute>453F4C58-A94A-B632-01BA-1F353C6C7C41</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA FACTURA" id="D6EB02CB-5208-125C-632A-DDC75D48417D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>5D25F470-086F-E082-3E23-78488360E7EA</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04D55DD3-37D2-9D4D-1E90-33799893B421" name="FAC CABECERA PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>4905A86E-D77B-DE7D-4A77-DCAC68C0F65C</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E6B762D-F063-17B5-818B-EFB6F358879E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53B58D54-EC3F-2912-9A57-833C8FDC423E" name="ARBITROS">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>EAFA939D-E9B5-93D4-6D98-CE5FE96A1D3F</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID ARBITRO" id="6878342C-3268-04B0-EE2E-C0CFA788C877">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>5CB67B74-426C-A204-5A74-C7DEE79AA551</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="468028F2-3DBC-47FC-72EF-E0E8AEFFB303">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>DCF858D7-51E0-CA4F-9BEC-B49962AEBABE</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="8CBFFCF8-C1D0-8FB8-9950-C37ED2FB1471">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>A78BFC79-D835-D29B-0417-A11F373F60DF</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELEFONO" id="53ED39CF-5563-C396-E643-26652F5233B9">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>581898F1-8B60-D292-6432-2550B57CA749</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="54383A0B-1C25-6F4C-C16C-A77E7330A66E" name="ARBITROS DNI UN">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>8CCB2E34-87A2-D3FA-4A44-82F5FCB899D9</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>468028F2-3DBC-47FC-72EF-E0E8AEFFB303</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="96CDE116-B792-89BC-7413-5A76B27B911A" name="ARBITROS PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>4A8CEEAD-8F7D-84C1-782F-AE6053DC78E4</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6878342C-3268-04B0-EE2E-C0CFA788C877</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

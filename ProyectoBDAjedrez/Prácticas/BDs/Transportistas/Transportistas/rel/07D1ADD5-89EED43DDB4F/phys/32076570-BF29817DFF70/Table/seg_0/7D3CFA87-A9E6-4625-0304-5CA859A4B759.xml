@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="TR_SOLICITUD" directorySegmentName="seg_0" id="7D3CFA87-A9E6-4625-0304-5CA859A4B759">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRECIO" id="02292529-BF43-FA2E-F31A-5B05DBC66925">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIPO" id="25B65608-6F36-0755-02F9-CAFDADABAAFA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESTINATARIO" id="2B0920D4-CBD7-1807-905B-CB9E45CD5337">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_OFI_ENTREG" id="431F8939-0A07-5591-9966-25702ABCCA8D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TRASNP_ENTREG" id="7B894C86-CEBD-67F2-EEEE-EBCC91E93131">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_TRASNP_RECOG" id="7D318454-ED6C-0892-A098-2914625B0BBB">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_OFI_RECOG" id="AB64FD22-1184-519C-B86A-379B6F6BA64B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_SOLICITUD" id="B2D5A565-A463-D05B-1B80-73E245748DFF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_SOLICITUD" id="E5203513-1BBC-E2AC-2DDD-4F033F427F9C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRODUCTO" id="F8D6C9B1-E1E8-7473-66A9-00FDD497A7FA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TR_SOLI_TR_TRANS_FK" id="0F71CF20-97F6-5851-12D1-1C28FAD18D9D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TR_SOLI_TR_TRANS_FKv2" id="2FD9C7F1-2D74-95FF-8620-28901F574B51">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TR_SOLI_TR_OFI_FKv2" id="73A5B607-1060-9B9C-87DE-E9E27F937180">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="TR_SOLI_TR_OFI_FK" id="DEB02D15-5390-C17F-F194-D30593624822">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="TR_SOLICITUD_PK" id="654AAC02-DE99-A1CE-4618-1A9BBE5DEACF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

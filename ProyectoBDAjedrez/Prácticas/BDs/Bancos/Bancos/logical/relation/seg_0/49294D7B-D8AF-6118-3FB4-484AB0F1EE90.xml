@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BAN_TRANSFER_DESTINO_FK" directorySegmentName="seg_0" id="49294D7B-D8AF-6118-3FB4-484AB0F1EE90">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>83A9FC0E-C977-42C6-103A-70DC9D9CA7C6</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<sourcePk>5735D7A6-06D3-8D7F-3E4D-521E5B59357B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D2EB33A4-7135-A3E1-F4F4-2C3630824AF0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5E48BE3E-EC44-8C60-CA19-5D4152210F03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

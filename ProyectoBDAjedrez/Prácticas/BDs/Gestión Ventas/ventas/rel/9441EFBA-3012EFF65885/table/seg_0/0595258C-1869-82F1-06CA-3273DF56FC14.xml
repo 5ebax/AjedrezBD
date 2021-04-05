@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0595258C-1869-82F1-06CA-3273DF56FC14" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="CLIENTE">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>CLIENTE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLIENTE" id="6ABAC563-CFF5-B8BA-D8CC-F742552A80A5">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNI" id="95BB179B-0B32-048D-15F1-491DA518B280">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>DNI</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTRO" id="35FE277E-12D8-8881-BD84-F75CABA73FCB">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>REGISTRO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="03D745D8-526E-F84E-4D49-B4797136652E">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECH_NACI" id="3CC04F4D-1EE1-D004-DA35-E733739528BE">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>FECH_NACI</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="E2AA4DF2-97F2-B088-8D74-EB53CE6797E0">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>TELEFONO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CP" id="4663EB53-61F2-2351-5A46-2EDB83D02E3D">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>CP</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5B09FDD-6D7A-2838-4B2D-C380D2970551" name="CLIENTE_PK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>CLIENTE_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ABAC563-CFF5-B8BA-D8CC-F742552A80A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="201C8789-D86C-CA67-33DE-32564B4354FB" name="CLIENTE_DNI_UN">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>CLIENTE_DNI_UN</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95BB179B-0B32-048D-15F1-491DA518B280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BEC6E5EC-1B70-7F86-4DBA-E8EF9596895F" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="CLIENTE_DNI_UN">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>CLIENTE_DNI_UN</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95BB179B-0B32-048D-15F1-491DA518B280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A3E0B72-61A8-68C8-6887-C2FA5336A1E9" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="CLIENTE_PK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>CLIENTE_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ABAC563-CFF5-B8BA-D8CC-F742552A80A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

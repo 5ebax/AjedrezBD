@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B7D1200D-046E-3159-3E25-766FEF7D76FD" containerWithKeyObject="58713E88-E133-854F-70C9-0E4A620D21CE" localFKIndex="315B1F40-DD13-AEBD-8B35-5C2BEF11FE2B" name="LIGAS_TOR_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>4D95DC57-00D6-C2DC-6520-FCFF166A9A88</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<referredTableLongName>TORNEOS</referredTableLongName>
+<arc>D3567355-D7AD-BBAB-0C62-788AAAAE5B07</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7E6A97B9-54A7-17B0-5E7B-3B4DD9FF4BA9</referredTableID>
+<keyObject>142AA6FC-9F98-F4D1-F197-850533FF1F50</keyObject>
+<referredKeyID>142AA6FC-9F98-F4D1-F197-850533FF1F50</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_TORNEO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<discriminatorValue>L</discriminatorValue>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

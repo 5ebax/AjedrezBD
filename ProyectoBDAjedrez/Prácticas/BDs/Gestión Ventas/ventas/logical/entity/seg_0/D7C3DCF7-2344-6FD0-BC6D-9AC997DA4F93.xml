@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7C3DCF7-2344-6FD0-BC6D-9AC997DA4F93" name="COMPRA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>40627EB0-AA4A-AC93-02A9-FFE2C8CD9A4D</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID COMPRA" id="A41A0EA1-6E7D-BE9C-4217-D7E92816D6E9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>FFC7241F-6D53-388B-5D31-6ACA9D452843</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID EMPLEADO" id="48938100-EB63-E483-2440-2B3AC008AD6A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>B451B123-1E4B-509B-AB9F-FE91333342FF</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<referedAttribute>A982A075-844A-105A-4140-EFB3BE879EEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECH COMPRA" id="77D26C09-3B24-8D48-7066-10C34FF61D4A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>8ACF1235-208F-7378-6EA1-DE44C2C79393</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PROV" id="11172632-F73F-0AEE-43D0-37B07135FE80">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>46AB1848-669F-5F48-5C62-E41F29E197D5</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6445B9DE-6D4D-6302-2433-9CD43FD0E844</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FF04EED-965D-BACD-84A7-F9B2A7859AA4" name="COMPRA PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>BE1EBF5F-7942-0F17-B960-20BBE7E2F131</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A41A0EA1-6E7D-BE9C-4217-D7E92816D6E9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

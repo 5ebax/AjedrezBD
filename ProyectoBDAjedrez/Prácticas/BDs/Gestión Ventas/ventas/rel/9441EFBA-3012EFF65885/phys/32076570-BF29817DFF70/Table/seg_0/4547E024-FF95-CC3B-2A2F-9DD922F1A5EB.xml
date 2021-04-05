@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DET_COMPRA" directorySegmentName="seg_0" id="4547E024-FF95-CC3B-2A2F-9DD922F1A5EB">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7DFEE2A6-BA74-516A-1812-B899D12EBE53</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PRECIO" id="20BFE460-8191-E353-C6A6-6C2AD6A6B752">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CANTIDAD" id="55C579DC-F73B-7AE5-D335-3BF36A92BE44">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_COMPRA" id="626737FA-0E84-25CE-851A-841338D3BA6A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ARTICULO" id="DF59F4B4-7C79-70AC-52D6-A560DB8DC176">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DET_COMPRA_PK" id="6BEDD615-A223-6E0A-4F9A-BD9F635AB114">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DET_COMP_COM_FK" id="409B212A-5F2F-3DA3-17E7-A142642BC43F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="DET_COMP_ART_FK" id="C1E24368-5677-195C-BB97-382DF1155161">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DET_COMPRA_PK" id="B2453241-00C4-E8E5-68E7-4DFB157C6B68">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<existingIndex>6BEDD615-A223-6E0A-4F9A-BD9F635AB114</existingIndex>
+<indexSegment>16596719-BA3B-0B34-647D-1A14A12EE620</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A9980067-6F91-677D-83E2-69620D26C3BE" name="TORNEOS">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>935016DE-4F43-C2DD-A67F-AA4962C733AD</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TORNEO" id="159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>8BD51DE8-4AD8-584D-D996-8A9C0AC91A89</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID RANK TOUR" id="8A8832D0-82CC-B7B5-7D69-152600C5ED0A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>2D305EA4-302E-3A38-CECE-D6B7107429E9</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<referedAttribute>42338AB9-CA18-86CF-F38B-878A129A8E8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CLUB ORG" id="28CDA922-5E4D-ACA9-F0CE-ED7E644E82C4">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>7657034F-181C-F71E-FA73-8EBF8CC9506A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<referedAttribute>682EB3A7-12E0-42D1-05D5-60CF3EDDF481</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRER TORNEO" id="E9120AD8-9051-C6C2-B591-0A7324502E0A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>62CE1CD4-F967-4084-9405-970903764E39</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM TORNEO" id="6DC5886B-2BA9-83A3-2A7B-8C27F9C3D0B8">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>0DD48FFD-38DD-0870-3EDA-A817AB9FE58F</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO TORNEO" id="617C8BCD-595A-8BA4-82FC-CFB46E07A609">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 18:08:53 UTC</createdTime>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECH INICIO" id="0D1356B1-5669-BC80-EB03-8C1F88A8BA5D">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>D5274553-5B98-B4C5-AF37-22F11A8B163E</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECH FIN" id="355B627C-867B-FCDD-8BD1-AA3497E72DFD">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>FDB5BC93-DF77-E90C-DF5F-B005583FE7D8</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="74AC68A7-811B-E42E-C994-7AA4B8D7F706" name="TORNEOS PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>FC944732-2A87-00D3-A5F1-FE429E8172BA</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

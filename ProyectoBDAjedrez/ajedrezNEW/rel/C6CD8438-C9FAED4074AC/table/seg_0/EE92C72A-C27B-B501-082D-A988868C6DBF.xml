@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE92C72A-C27B-B501-082D-A988868C6DBF" name="PATROCINADORES">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>49E2BE0A-AA42-E45D-15B8-1BBCDE3C4072</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PATRO" id="EDF5CF6A-F48E-8511-7C6C-865980BE9085">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>485A05C5-88AC-DCDA-B2CA-93B46D0AA9FD</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_PATRO" id="73FA1906-26D5-3C04-B78F-D1391CE5C4D0">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>F53DF2CD-A3E7-EF05-08BD-8DB177A777BE</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="4DDCB6D2-4ADD-0633-0D01-13DCAA5A85F8">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>9A489403-6457-7F26-B382-4502CAAD2D05</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3AEEE7CE-A5E1-64B0-FC0D-D84B5AF3A323" name="PATROCINADORES_PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>F7525847-2AE7-943C-6352-5724D0F30B09</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDF5CF6A-F48E-8511-7C6C-865980BE9085"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

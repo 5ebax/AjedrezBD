@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44F66681-049C-44B8-A88C-22DD00402570" name="SUIZOS">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>6F53EEF4-CEF8-E0E0-BE43-5A21801DB7A6</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TORNEO" id="08351948-5A78-7E30-76EF-3353B87AE15E">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C64F0018-1815-09DE-6BD2-AE09F7FA8883" referredColumn="CB6388F5-478F-C4E5-BD48-917550E7B381"/>
+</associations>
+</Column>
+<Column name="NUM_RONDAS" id="C2A66648-3AF2-14C2-71AB-05ED7440DC44">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>62D83696-780E-1BD8-76FF-D408BC4B4376</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RELAMPAGO" id="C8AA3429-CF34-BE60-7196-6014FE4B731F">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<comment>&quot;Y&quot; SI ES TORNEO RELÁMPAGO Y &quot;N&quot; SI NO LO ES.</comment>
+<generatorID>951D5F8B-EADC-95EC-52DE-90E3EE8068C8</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DURACION" id="5F25FE24-C965-7DE9-549C-D2E2C2A36337">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>24A88BB6-38EE-2566-FA1E-D03FA9E12650</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE113111-A593-E677-A16C-06F50D3FB01F" name="SUIZOS_PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>74AC68A7-811B-E42E-C994-7AA4B8D7F706</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08351948-5A78-7E30-76EF-3353B87AE15E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA16D6A9-7D4A-9185-EC0C-19C9582193E0" name="SUIZOS_TORNEOS_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>B4BBC88C-6180-E1EC-DCE3-39C3B52CDAF8</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08351948-5A78-7E30-76EF-3353B87AE15E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

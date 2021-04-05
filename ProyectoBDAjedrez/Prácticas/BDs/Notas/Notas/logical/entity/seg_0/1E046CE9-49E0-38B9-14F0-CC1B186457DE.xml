@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E046CE9-49E0-38B9-14F0-CC1B186457DE" name="MOD_MATRICULA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:34:56 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID GRUPO" id="EACCE5D5-BA8E-A1CA-9C40-4B45336210A7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:35:09 UTC</createdTime>
+<generatorID>17364B19-2006-7E09-3770-5E0D7FAA52B0</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>EAA0BEA6-69A7-CC90-AD16-AC9849EF53FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CICLO" id="25421DF6-C516-3D10-49C3-0B645D550532">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:35:09 UTC</createdTime>
+<generatorID>17364B19-2006-7E09-3770-5E0D7FAA52B0</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>90C848B1-65A8-974E-0D2C-1564E4269088</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CURSO" id="C26FEC9D-1CA1-FBE9-EBCE-F64236A9026A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:35:09 UTC</createdTime>
+<generatorID>17364B19-2006-7E09-3770-5E0D7FAA52B0</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>0E276AE5-9CA4-CEB7-7FAC-70DC69DA0B5B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID MODULO" id="3B55EB0E-717C-DC9B-ECDF-590C96AB08DD">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:38:17 UTC</createdTime>
+<generatorID>82ADC7CA-4656-471A-13BC-B69E19E2F9A8</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>6DBC1D45-3817-F761-C0F8-23598BF831D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CICLO1" id="413D9EE4-955B-16FC-AD82-6F21EF67A4C7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:38:17 UTC</createdTime>
+<generatorID>82ADC7CA-4656-471A-13BC-B69E19E2F9A8</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="false"/>
+</engineerTo>
+<referedAttribute>3F78576A-81DB-395C-1188-AC763D054045</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CURSO1" id="7913BEFE-A81C-7C98-9B9E-ABF4DB97D367">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:38:17 UTC</createdTime>
+<generatorID>82ADC7CA-4656-471A-13BC-B69E19E2F9A8</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="false"/>
+</engineerTo>
+<referedAttribute>A57DD416-92A3-7FA3-4846-6AE78DB8D09D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ESTUD" id="7CF383A1-153A-69E5-03CD-AC82512FE98D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:38:23 UTC</createdTime>
+<generatorID>502325D0-C170-CC32-051F-8A019133BFF0</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>EE8DF793-9B46-71C1-6AEA-1CF8490E0276</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A90C84B0-C981-BF54-3C8C-6A8CB9A555F4" name="MOD_MATRICULA PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:35:09 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EACCE5D5-BA8E-A1CA-9C40-4B45336210A7</attributeRef>
+<attributeRef>25421DF6-C516-3D10-49C3-0B645D550532</attributeRef>
+<attributeRef>C26FEC9D-1CA1-FBE9-EBCE-F64236A9026A</attributeRef>
+<attributeRef>3B55EB0E-717C-DC9B-ECDF-590C96AB08DD</attributeRef>
+<attributeRef>413D9EE4-955B-16FC-AD82-6F21EF67A4C7</attributeRef>
+<attributeRef>7913BEFE-A81C-7C98-9B9E-ABF4DB97D367</attributeRef>
+<attributeRef>7CF383A1-153A-69E5-03CD-AC82512FE98D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

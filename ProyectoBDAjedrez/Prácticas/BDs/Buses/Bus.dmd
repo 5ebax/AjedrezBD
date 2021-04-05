@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Bus" id="B3E14170-EFB2-92AA-BDF9-17E7827DCFD1" version="3.5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 17:53:54 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B3E14170-EFB2-92AA-BDF9-17E7827DCFD1</designId>
+</OSDM_Design>

@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0F317207-B2B3-BFA5-B928-0047ACB46929" name="DEPARTAMENTO">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>2501B02E-FFBB-0832-BA4E-514530E5772E</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID DPTO" id="3DA0A226-A43C-2AAE-EB0B-AFE772EB2D08">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>0C22CC6C-8DB9-8F3D-1B6D-4610568D1004</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="9BB02E77-C7AF-F159-0012-1B25FC81A697">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>33516719-CE61-5D75-A80F-EA649F50DE62</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA CREACION" id="0EC77D06-555A-6E5A-5D34-D2E41888BB00">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>FCB8891A-5B2B-306B-2519-E20F3A8453D2</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<constraintName>DEPARTAMENTO_FECHA_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="FECHA_CREACION &lt;= TO_DATE(&apos;2018-10-12&apos;,&apos;YYYY-MM-DD&apos;)"/>
+<implementationDef dbType="Oracle Database 11g" definition="FECHA_CREACION &lt;= TO_DATE(&apos;2018-10-12&apos;,&apos;YYYY-MM-DD&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRESUPUESTO" id="62ECC26A-6D34-4A44-3153-22B113A1B45F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>8360F68D-3BE9-FDC9-97AF-E5917C0952EA</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<constraintName>DEPARTAMENTO_PRESUP_CHK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="PRESUPUESTO &lt;= 900000"/>
+<implementationDef dbType="Oracle Database 11g" definition="PRESUPUESTO &lt;= 900000"/>
+</checkConstraint>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D36FB1E-461C-A601-7274-8306D6C820E7" name="DEPARTAMENTO PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>4AC15506-A392-F0D8-C11B-B55E30CCFD40</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3DA0A226-A43C-2AAE-EB0B-AFE772EB2D08</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

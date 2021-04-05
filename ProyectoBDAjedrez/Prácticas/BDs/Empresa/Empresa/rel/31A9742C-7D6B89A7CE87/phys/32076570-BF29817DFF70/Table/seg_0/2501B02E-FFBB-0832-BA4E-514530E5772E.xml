@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="DEPARTAMENTO" directorySegmentName="seg_0" id="2501B02E-FFBB-0832-BA4E-514530E5772E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<schemaObject>E06DF6E3-7BA1-6EFC-38EF-6B4DF77B591A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>C5AF21FD-22A1-4FFB-0DE1-58999001F76E</segment>
+<tableSpace>5BD70E09-74D9-C656-0472-EA41B5E8E23D</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_DPTO" id="0C22CC6C-8DB9-8F3D-1B6D-4610568D1004">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="33516719-CE61-5D75-A80F-EA649F50DE62">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRESUPUESTO" id="8360F68D-3BE9-FDC9-97AF-E5917C0952EA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CREACION" id="FCB8891A-5B2B-306B-2519-E20F3A8453D2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="DEPARTAMENTO_PK" id="1DDCE5C7-30D2-74B0-6C8D-A146A42BADC6">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<schemaObject>E06DF6E3-7BA1-6EFC-38EF-6B4DF77B591A</schemaObject>
+<segment>DA306289-6110-3CBA-7F93-9A84073F3F96</segment>
+<tableSpace>5BD70E09-74D9-C656-0472-EA41B5E8E23D</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTAMENTO_PK" id="4AC15506-A392-F0D8-C11B-B55E30CCFD40">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:58 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<segment>DA306289-6110-3CBA-7F93-9A84073F3F96</segment>
+<tableSpace>5BD70E09-74D9-C656-0472-EA41B5E8E23D</tableSpace>
+<existingIndex>1DDCE5C7-30D2-74B0-6C8D-A146A42BADC6</existingIndex>
+<indexSegment>DA306289-6110-3CBA-7F93-9A84073F3F96</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BAN_CLIENTES" directorySegmentName="seg_0" id="2F217ECB-C1BB-DF6E-29FC-1E5BDCF8B542">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<ownerDesignName>Bancos</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="APELLIDOS" id="A48448D0-D995-3447-B38A-44BA5C7493FC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<ownerDesignName>Bancos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLIENTE" id="AB2F91E6-F310-3251-70E2-EDB51E8A9632">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<ownerDesignName>Bancos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NACIMIENTO" id="C1D8A392-A933-C064-88FC-0FDF0A2B2F79">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<ownerDesignName>Bancos</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="C54B503C-5DC6-C107-5B8C-DD631068F65B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<ownerDesignName>Bancos</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BAN_CLIENTES_PK" id="85B81689-DE15-3828-431F-19B314BEC290">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<ownerDesignName>Bancos</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

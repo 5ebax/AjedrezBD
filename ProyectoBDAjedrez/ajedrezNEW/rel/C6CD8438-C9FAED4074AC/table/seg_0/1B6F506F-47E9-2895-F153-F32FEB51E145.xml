@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B6F506F-47E9-2895-F153-F32FEB51E145" name="ELIMINATORIAS">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>192F304B-4560-711A-78A5-6E119E853C84</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TORNEO" id="CFC39C81-AEF2-14BB-DF9B-91C86DB8C9D7">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F72DCBB-16B6-724C-97C0-426FA68193FA" referredColumn="CB6388F5-478F-C4E5-BD48-917550E7B381"/>
+</associations>
+</Column>
+<Column name="NUM_EMPAREJAMIENTOS" id="6C9AF788-E6EB-6A45-9C63-965D4E77CBA3">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>1A40902C-F927-C3E5-BDB5-AEF8005DD57E</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PLAY-OFFS" id="84753CF5-FD6C-8305-90F5-E94E80BF7062">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<comment>&quot;Y&quot; SI TIENE PLAY-OFFS Y &quot;N&quot; SI NO.</comment>
+<generatorID>43F9FC2B-609F-D3CA-A354-112DEA16780F</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRORROGA" id="23A05A0D-8B73-FC26-0BE1-9A9710A5563A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<comment>&quot;Y&quot;</comment>
+<generatorID>CCDBA767-21F4-E7FF-1E5D-2F394A8DCED5</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPETICION" id="797A76A5-F00F-C9C7-D7F2-7481AB48675F">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<comment>&quot;Y&quot; O &quot;N&quot;</comment>
+<generatorID>D5B5AD8C-9D9A-C1E5-A2D2-5B61024D2900</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CEA4AED9-E991-6050-8DF7-324C02551F3B" name="ELIMINATORIAS_PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>74AC68A7-811B-E42E-C994-7AA4B8D7F706</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFC39C81-AEF2-14BB-DF9B-91C86DB8C9D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="400E697A-47C8-3D3E-7D79-6093116264F6" name="ELIM_TOR_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>7746702F-13F0-A850-C0E7-D82754D2C788</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFC39C81-AEF2-14BB-DF9B-91C86DB8C9D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

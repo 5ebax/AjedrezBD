@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="991CE665-8B44-7FA8-1EC7-4369A52678C4" name="PARTICIPANTES">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>F0C6B812-CF03-DC44-6B09-43BC73BE0178</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TORNEO" id="4B83AB97-EF2F-9382-9B6C-6E16910FE656">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>86D02F23-A1B3-D4FD-D18A-B75289A7C427</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<referedAttribute>159FAA70-1DEF-EDBA-8E12-1F9CE575B9D7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID JUGADOR" id="0A7904A9-E58E-4ED4-FAA5-5DC18221E4BE">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>8D7EB377-7039-18F0-6807-501924BADB60</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<referedAttribute>7BDF3E39-C437-5093-37E7-100576F65B1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A1C4F736-5A8E-BA51-50C8-079241D2690E" name="PARTICIPANTES PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>D71C42E2-CD74-1BDF-C355-C46FA0DC0833</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4B83AB97-EF2F-9382-9B6C-6E16910FE656</attributeRef>
+<attributeRef>0A7904A9-E58E-4ED4-FAA5-5DC18221E4BE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

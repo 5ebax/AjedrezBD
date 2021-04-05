@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PLAN_ESTUDIOS" directorySegmentName="seg_0" id="5B1E1047-5293-108F-022D-B2D5B82B2F14">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CURSO_ID_CICLO" id="39231550-AA65-D7DC-F17C-94509D2313B3">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURSO_ID_CURSO" id="9FFE6A14-3581-CDA6-B7E9-686060281B39">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MODULO_ID_MODULO" id="EADF0B9E-75F7-5D1C-D8E3-DE8184C0CA78">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLAN_ESTUDIOS_MODULO_FK" id="CFF81F7F-5148-28BA-8F5C-4CB28CA5CB8D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="PLAN_ESTUDIOS_CURSO_FK" id="D4F5A6BC-D11E-5A57-39BA-F56DF89D4936">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PLAN_ESTUDIOS_PK" id="8E49F473-3509-D7F6-4381-B2C4EA858545">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

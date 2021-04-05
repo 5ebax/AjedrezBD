@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D51D7B1-B7D2-4632-47A9-54A599936D1A" name="BAN CLIENTES">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>EAE90EE4-2C78-E5A7-A029-E5A47BBF9A32</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CLIENTE" id="9BA0266D-FD98-F2D2-01AA-DFEAC4172224">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<commentInRDBMS>DNI</commentInRDBMS>
+<generatorID>022363FE-4DB3-5E9C-3A7B-4758B1523455</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="E9721938-4866-B395-9116-438CD0750EBF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>2DB91E53-5FFF-5348-6DA8-6566567BF0FA</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="FCE9C32F-2BD1-6099-D355-F48B8119A43A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>FCCF46F6-6238-463A-1777-ABB7D8168D6F</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA NACIMIENTO" id="800B9AA0-0A21-06CE-A51E-8D5C1FC7F81E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>E183CCB9-BF30-E58E-B030-E76FB8F438AD</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68344980-3CE0-5DA0-5125-E2AB98F23A0D" name="BAN CLIENTES PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>6EB86F1C-4FB7-ECD5-A5E2-EADE9A7BE38E</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9BA0266D-FD98-F2D2-01AA-DFEAC4172224</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

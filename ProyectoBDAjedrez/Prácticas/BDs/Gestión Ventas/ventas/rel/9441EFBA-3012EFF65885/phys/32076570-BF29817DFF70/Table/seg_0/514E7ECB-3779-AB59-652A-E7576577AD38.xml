@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="PROVEEDOR" directorySegmentName="seg_0" id="514E7ECB-3779-AB59-652A-E7576577AD38">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>7DFEE2A6-BA74-516A-1812-B899D12EBE53</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOM_PROV" id="B76660AB-A5E9-EE38-A47E-B8E9127BCC2E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PROV" id="F2F65670-77EE-D52D-15A9-A29AF79DCEBA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEL_PROV" id="FC546451-A4D1-6952-3460-EEE2A23D10CB">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PROVEEDOR_PK" id="36DEC3D3-56B7-0536-3549-7D292D74645A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<schemaObject>1BF478D6-3439-D102-E81F-50D5DCE3A441</schemaObject>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PROVEEDOR_PK" id="B5218BDB-D600-4E51-26AF-0CD818958302">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<segment>16596719-BA3B-0B34-647D-1A14A12EE620</segment>
+<tableSpace>99EFEF6B-51CD-07FC-961D-395475DDEAAB</tableSpace>
+<existingIndex>36DEC3D3-56B7-0536-3549-7D292D74645A</existingIndex>
+<indexSegment>16596719-BA3B-0B34-647D-1A14A12EE620</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

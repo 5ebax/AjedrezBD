@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EED664B0-2566-A66A-FAF7-7F3A83CE1FFA" name="GRUPO">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>3D080B15-4E11-66F7-5045-B5D88AB370B2</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CURSO" id="0E276AE5-9CA4-CEB7-7FAC-70DC69DA0B5B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>3514B6CE-DEF2-09EF-7060-366F14CCD441</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>A61EB8DA-4AFA-38E0-01B3-2D5621CA97EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID GRUPO" id="EAA0BEA6-69A7-CC90-AD16-AC9849EF53FD">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>95DBDBDF-E643-D5FF-B6B5-DD4515FF1875</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CICLO" id="90C848B1-65A8-974E-0D2C-1564E4269088">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>3514B6CE-DEF2-09EF-7060-366F14CCD441</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>60E3E6B8-0E88-921E-733F-CA9A99AF2FE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PROF TUTOR" id="9D6892D2-B484-565E-BBC7-7D7C049CF603">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>9DADB6E4-E2B0-2DA0-16CA-9C6878950A49</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>83EEBDF1-53EF-3071-886C-BBB153C5BFC1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="728EE634-9301-82D0-21C3-CDB95EBCA5F6" name="GRUPO PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>17CC71B2-CEBA-2F27-770B-2B3961003833</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EAA0BEA6-69A7-CC90-AD16-AC9849EF53FD</attributeRef>
+<attributeRef>90C848B1-65A8-974E-0D2C-1564E4269088</attributeRef>
+<attributeRef>0E276AE5-9CA4-CEB7-7FAC-70DC69DA0B5B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

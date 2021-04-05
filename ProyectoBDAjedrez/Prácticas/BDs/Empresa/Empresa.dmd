@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Empresa" id="AD442971-D8A0-3A6D-5DF7-0BDD150858B0" version="3.5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:16:31 UTC</createdTime>
+<ownerDesignName>Empresa</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>AD442971-D8A0-3A6D-5DF7-0BDD150858B0</designId>
+</OSDM_Design>

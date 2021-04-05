@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="008BE3CE-29C8-F247-56CA-F23C75E37DCB" name="DEPARTAMENTO">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>4FD6794F-DC5A-CF1E-3839-C188B04D4037</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID DEPART" id="E6266D21-86F6-6AA8-BB16-8D596C393B3E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>6ED95E94-583C-5902-6CFB-959DD7E8F5BE</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID EMP JEF" id="EF3E92FD-5C03-0517-A527-7A5B4668367F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>354ECAE2-4B6C-8CF7-A68E-2AAF73A37276</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A982A075-844A-105A-4140-EFB3BE879EEF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM DEPART" id="7E32281B-652E-C7AC-6328-8B0E3D846275">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>45ED6739-D1F1-A0F0-C0AA-23DD0B18EB8C</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM VEND" id="173BD7BB-B992-9011-7A8C-0F7478364465">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>388A82F9-FF34-5693-69B9-B37D397FC200</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,6,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4D9E6BA9-EECE-D5A7-CF32-1D6CD002A0CA" name="DEPARTAMENTO PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>0D01DAB0-BD92-7AEB-988E-A9714EE010CE</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E6266D21-86F6-6AA8-BB16-8D596C393B3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

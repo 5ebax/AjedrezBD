@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="33522FB0-B9AD-31DB-DB2E-897430A9B059" name="TR TRANSPORTISTAS">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>66B03543-55F8-F32D-4AAC-6797D18E1AA8</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID TRASNPORTISTA" id="BB4C97A0-C0EF-38ED-2DF2-7F5EE16FBD6B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>0222F4D1-F292-2728-CE08-51C20FD043E6</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="64EEC736-B42A-E0FF-682B-2D027E68AD8D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>5B4AEB07-92DB-B12D-B7AE-A0CF82549379</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO MEDIO" id="E59ACB4E-AF6A-F46E-6C62-33392152563F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>5CD2FEA5-4B32-2E94-BE6A-980E92B3005D</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PESO MAX" id="44812D6A-C8F2-5709-8B19-63FD1755DB5C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>0BBA19FC-3D91-F7FC-179E-63E6F3FDA41C</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,6,1</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID OFI RECOG" id="04E6F1A6-495B-8EA0-671A-B651E3B8DE9C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>9BAF6A9D-AADC-E29F-FCBA-E069A8B8D9E1</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID OFI ENTREG" id="9A0966B7-CEB4-81D8-DC76-46148B02EAD2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>4B2DA83B-60EE-9EA3-C6F1-C5CB483C17C4</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID OFICINA" id="EBCA5D78-76C9-0F80-3E49-AFB86A875449">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:25:06 UTC</createdTime>
+<generatorID>A111C34D-4C7E-B9E5-5168-194F4721F11E</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>969A59E0-846E-A5FB-C909-8E9D07597E06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID OFICINA1" id="902EC868-740B-F951-1FD6-D98358F60937">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:25:13 UTC</createdTime>
+<generatorID>334386E6-1381-0B7B-09AF-97F1652E7855</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="false"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>969A59E0-846E-A5FB-C909-8E9D07597E06</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E12E7273-1F14-0FA3-988E-B9EC0010A2C5" name="TR TRANSPORTISTAS PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>11537698-7FE1-3586-2C3A-E24BB482AAAB</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BB4C97A0-C0EF-38ED-2DF2-7F5EE16FBD6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

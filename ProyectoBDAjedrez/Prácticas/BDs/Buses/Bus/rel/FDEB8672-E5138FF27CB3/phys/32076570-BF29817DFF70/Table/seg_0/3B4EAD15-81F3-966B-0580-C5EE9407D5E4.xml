@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BUS" directorySegmentName="seg_0" id="3B4EAD15-81F3-966B-0580-C5EE9407D5E4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="FECHA_COMPRA" id="3BFD1464-1EA8-0429-CADB-1FA66DF4DE74">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MATRICULA" id="70D82AB2-7FA5-8F1F-BD55-0E1CFD56DC66">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PRECIO" id="865D4406-8165-D2E7-C368-034AA95A3446">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI_COND" id="ADD4B4E6-C4BC-B6AD-98F9-AA296A3295A4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="KM_ULT_REV" id="AE62EC9D-379A-B968-2EB0-F293D20D5531">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARCA_BUS" id="BA0AB062-D0FB-9F87-83D3-194AA1B7690B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUS_BUS_COND_FK" id="49797330-952E-01C2-0AE9-E06EA260F345">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="BUS_BUS_MARCA_FK" id="BC380C59-11CA-5AAD-A860-2478299FC0FC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUS_PK" id="26EF990D-73DF-F821-296E-CB12416A462C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

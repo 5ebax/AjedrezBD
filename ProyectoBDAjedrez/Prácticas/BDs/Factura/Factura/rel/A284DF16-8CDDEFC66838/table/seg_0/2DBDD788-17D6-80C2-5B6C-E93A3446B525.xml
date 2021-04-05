@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2DBDD788-17D6-80C2-5B6C-E93A3446B525" schemaObject="FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931" name="FAC_DETALLES">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_DETALLES</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CANTIDAD" id="EDD8C6D4-A6A8-71FB-1144-4CCFAE388947">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_DETALLES</sourceObjSchema>
+<sourceObjName>CANTIDAD</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_FACTURA" id="9C684F6D-683A-2870-8A3E-BD47B769D996">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_DETALLES</sourceObjSchema>
+<sourceObjName>ID_FACTURA</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2DBDD73-EC62-E36A-2564-4A4335D01A49" referredColumn="E1A1A476-D6DE-56B7-98FA-C2138F93A92C"/>
+</associations>
+</Column>
+<Column name="ID_PRODUCTO" id="D720946F-5B5C-A464-C82F-0594CD324587">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_DETALLES</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4C17824-BA25-FF49-61EB-B2F538EF23E2" referredColumn="3E2FE52D-5459-4FE0-F112-CBCCA1E65E47"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F1FC7D62-0CF9-E7A0-52B4-7DFBEE7BE9F6" name="FAC_DETALLES_CAB_FK1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C684F6D-683A-2870-8A3E-BD47B769D996"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CC4E124B-E46D-A1D4-1640-C6DED23EC5E6" name="FAC_DETALLES_PROD_FK1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D720946F-5B5C-A464-C82F-0594CD324587"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF9755EC-4AF5-E709-25CB-7A8CDB15A23B" name="BAN_SUCURSAL">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>120FE997-AA2C-1969-C155-5DCFF06E5C0A</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="BAN_ENTIDAD_ID_ENTIDAD" id="C95ED318-1829-AA26-3CD5-24BBE8D112C1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>A43D1CE9-93A3-ED75-5964-AFA407A952AC</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E537BD23-956F-A8F4-41BB-922C36AB2113" referredColumn="7EBDEFFC-D124-EB25-F779-7AF4A6226ECD"/>
+</associations>
+</Column>
+<Column name="ID_SUCURSAL" id="52970676-A34D-26D5-014A-AF7338B7B2E9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>23E0BBB1-D067-AA0A-5F92-842B055D75D7</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CIUDAD" id="B0444E70-A64C-569B-7AC2-E16063C6AC49">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>4747806E-4F25-7E9B-9FB9-684EFA6D4118</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="2524F803-C778-B80F-5C7C-80F39A522A10">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>20C86940-38D0-2798-7E5C-1E6A28B13959</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELEFONO" id="43AE1CFA-2AE9-24BD-5170-588957E0DD28">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>B9B8C360-8893-E050-272E-D0512A56CE2A</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,9,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_APERTURA" id="EAAF28C7-3CA8-6EC6-5ABC-DFDF3C64B144">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>9862FFF6-1D6F-D7AC-19A0-05A1B92D27CC</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_CAJEROS" id="60DA0847-021B-C878-EA86-ACD1829D9ED4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>110605C2-9C3A-8775-2227-322659A4D601</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECTOR" id="77A8BD44-B3DB-D10F-7D12-921D61202F48">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>A5A80C94-6550-6850-2A4A-3D5FCC7294D4</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A6384F5-4F86-4A48-B719-570BFFF98FB7" name="BAN_SUCURSAL_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>51FF86E9-43A7-958D-642A-4DB65E2767E9</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95ED318-1829-AA26-3CD5-24BBE8D112C1"/>
+<colUsage columnID="52970676-A34D-26D5-014A-AF7338B7B2E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CA5FC360-EBEF-E551-870F-2C94951F656D" name="BAN_SUC_BAN_ENT_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>6BE2C93C-ED67-2F63-C993-A17F6FE2B64A</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C95ED318-1829-AA26-3CD5-24BBE8D112C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

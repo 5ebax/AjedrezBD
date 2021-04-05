@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BUS_CONDUCTOR" directorySegmentName="seg_0" id="371ECE39-33A3-DF73-8E0B-D0576BF452F7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="APELLIDOS" id="520149FC-B02E-AEBB-5C1E-55DBD576B407">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMINA" id="788DD6E7-ECCF-491F-E842-69D0FB407A9C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="7E0457CA-A638-77A1-B709-3FC9C5D9FBED">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_NAC" id="8F11B256-60A1-339A-062B-6DE0AFD3CF25">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI_COND" id="9043B997-FF05-5AD4-DCD2-DC484FFD3A75">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CARNET" id="D265033F-BA43-7575-0A5C-6DBD00C91A67">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NUM_SS" id="EB3C7035-4AFF-8E9C-C1D5-2B22912904F0">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUS_CONDUCTOR_PK" id="8B442C6E-E55A-48FF-171E-1BA6A1A9F9DC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="BUS_CONDUCTOR_NUM_SS_UN" id="DEB9D696-D5C9-C56C-91E1-F66C0B1A8B1E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

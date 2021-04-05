@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AF5B1E6-95AA-B6D6-7FC8-0582EF95B818" name="CLUBES">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>17186DA7-3C66-206D-8821-6395182E9422</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CLUB" id="682EB3A7-12E0-42D1-05D5-60CF3EDDF481">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>66533340-F9A3-0FD8-A6A3-7556D7AB71B2</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID JUG LIDER" id="E10ACA58-9157-5F1C-5147-33278A1729B5">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>E56365AF-E28C-FBFF-0529-7B13FC12430D</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7BDF3E39-C437-5093-37E7-100576F65B1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOM CLUB" id="D1D5A89C-19F0-1F64-46BA-D2C2BC94A8F0">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>6C6134B1-4853-CF99-8620-659B101F4DF0</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N INTEGRANTES" id="4B82A6C1-06D1-8C3B-5C8F-23391F27706F">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>C14323D5-D6E8-3FE5-A70B-D78F84B89B60</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA CREAC" id="7A2419BF-04CB-6C89-4A67-06F5C758969F">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>58C8AC1F-3972-BB21-C285-2AC5076F1821</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95686D32-60D6-4222-2F0A-46DE693648C6" name="CLUBES PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>293DEA1D-57F2-83A0-4953-C686F93AAE9A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>682EB3A7-12E0-42D1-05D5-60CF3EDDF481</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

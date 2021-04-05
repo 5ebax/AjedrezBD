@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="SchemaObject" objectID="E06DF6E3-7BA1-6EFC-38EF-6B4DF77B591A" name="USU1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.SchemaObject" propertyParentId="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="2501B02E-FFBB-0832-BA4E-514530E5772E" name="DEPARTAMENTO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="2950C472-6C4D-DD64-B388-00A1CE4F8EAB" name="EMPLEADO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" propertySourceId="" propertyTargetId=""/>
+   <object objectType="FKIndexAssociation" objectID="BE67E7F8-6588-4EBE-3B14-5DC7E0CBE7E9" name="EMPLEADO_DPTO_FK" seqName="seg_0" containerID="2950C472-6C4D-DD64-B388-00A1CE4F8EAB" refContainerID="2501B02E-FFBB-0832-BA4E-514530E5772E" propertyClassName="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" propertyParentId="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" propertySourceId="2501B02E-FFBB-0832-BA4E-514530E5772E" propertyTargetId="2950C472-6C4D-DD64-B388-00A1CE4F8EAB"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

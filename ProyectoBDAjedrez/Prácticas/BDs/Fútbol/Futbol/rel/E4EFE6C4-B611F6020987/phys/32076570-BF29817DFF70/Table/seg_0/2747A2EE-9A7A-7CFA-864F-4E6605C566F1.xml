@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="F_CLUBES" directorySegmentName="seg_0" id="2747A2EE-9A7A-7CFA-864F-4E6605C566F1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NOM_CLUB" id="6E9279A6-62E6-109C-630C-DF2E94964955">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ESTADIO" id="702C66E3-C450-0F4D-324C-3C75DC349AC3">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLUB" id="8220CC46-A6E9-BB07-52EC-294B5230B41F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COSTE_CLUB" id="DB0002A6-3C5B-1095-C5E3-EDAA8F38B51D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="F_CREACION" id="EF1C8085-A0AE-668F-DD27-D742C08EDD4E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="F_CLUBES_PK" id="0C6FDE37-5DAD-31E2-A5C8-803DA8A65A8F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="F_CLUBES_NOM_CLUB_UN" id="8D5C01A3-07B1-6408-1236-68761C67032C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<ownerDesignName>Futbol</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

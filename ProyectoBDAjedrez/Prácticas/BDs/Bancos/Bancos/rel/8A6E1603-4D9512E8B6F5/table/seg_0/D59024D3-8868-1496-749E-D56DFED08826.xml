@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D59024D3-8868-1496-749E-D56DFED08826" name="BAN_CUENTA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>D2EB33A4-7135-A3E1-F4F4-2C3630824AF0</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ENTIDAD" id="99956A60-4265-A015-7A94-E79E42E63E9A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>616E4B16-B86A-0F37-DFBB-93311E3C96C4</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E1129D4-1F19-CA2F-595D-B4A970A75F35" referredColumn="C95ED318-1829-AA26-3CD5-24BBE8D112C1"/>
+</associations>
+</Column>
+<Column name="ID_SUCURSAL" id="ED293618-CEF1-BB18-1B50-5C76BABFCE14">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>2669DD87-0F19-BE0A-5985-196C81A39F84</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E1129D4-1F19-CA2F-595D-B4A970A75F35" referredColumn="52970676-A34D-26D5-014A-AF7338B7B2E9"/>
+</associations>
+</Column>
+<Column name="ID_N_CUENTA" id="4DD5500B-02F0-206C-11C5-F1806439CD65">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>F71425CE-CBDE-1ACE-A72A-32D3B737DE59</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="C3F55D58-13EB-3D05-FC46-F7D48ABF7E7C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>A7F108FE-E98D-BF3C-34B1-0FF9075A8F03</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3020E65D-D057-0255-4910-54FE40ADBB27" referredColumn="AB2F91E6-F310-3251-70E2-EDB51E8A9632"/>
+</associations>
+</Column>
+<Column name="FECHA_APERTURA" id="9CE02895-44C3-2159-B591-234EFDBA3B32">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>E6D436DD-43CE-08AF-E263-C32C373CFB6F</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALDO" id="17E5BBDE-ED5F-9E46-C8CB-89FA753D9C3F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>C5AEF936-B3FB-F18D-6A00-30F81FE457A9</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8173627D-3E5B-4995-D509-571808FE59B3" name="BAN_CUENTA_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>5735D7A6-06D3-8D7F-3E4D-521E5B59357B</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99956A60-4265-A015-7A94-E79E42E63E9A"/>
+<colUsage columnID="ED293618-CEF1-BB18-1B50-5C76BABFCE14"/>
+<colUsage columnID="4DD5500B-02F0-206C-11C5-F1806439CD65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07248A84-4B64-F083-ACFA-D3EB0DCD5A6B" name="BAN_CUEN_BAN_CLIEN_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>58D4D89C-F12A-742C-CF73-33AE8DD52CFC</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C3F55D58-13EB-3D05-FC46-F7D48ABF7E7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="242EF4E9-F1DD-DB5C-8BCC-D96BAE66387B" name="BAN_CUEN_BAN_SUC_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>655448D0-77F1-8DD7-76C3-91A96D387BE0</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="99956A60-4265-A015-7A94-E79E42E63E9A"/>
+<colUsage columnID="ED293618-CEF1-BB18-1B50-5C76BABFCE14"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

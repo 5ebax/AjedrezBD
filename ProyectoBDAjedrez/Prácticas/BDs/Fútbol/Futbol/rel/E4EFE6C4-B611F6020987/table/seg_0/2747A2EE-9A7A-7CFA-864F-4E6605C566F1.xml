@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2747A2EE-9A7A-7CFA-864F-4E6605C566F1" name="F_CLUBES">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>89D27BF5-2F8F-E322-2577-30F30FDFEAD2</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CLUB" id="8220CC46-A6E9-BB07-52EC-294B5230B41F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>6CEC597A-FF1A-B9C0-0AAA-A77AB639494F</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>4 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOM_CLUB" id="6E9279A6-62E6-109C-630C-DF2E94964955">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>F87E696E-BEF4-40DD-AB61-CEFE53EB161B</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="F_CREACION" id="EF1C8085-A0AE-668F-DD27-D742C08EDD4E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>02E6072E-1092-32AF-F724-D1263F4ABE88</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESTADIO" id="702C66E3-C450-0F4D-324C-3C75DC349AC3">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>12D79DE0-A53D-3D27-9D50-169B6A362341</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COSTE_CLUB" id="DB0002A6-3C5B-1095-C5E3-EDAA8F38B51D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>84357DB7-01AB-395E-81C9-A3A087AE0F64</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,9,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C6FDE37-5DAD-31E2-A5C8-803DA8A65A8F" name="F_CLUBES_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>752C2AC4-41F1-99BB-DB4C-5666C7A32BB5</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8220CC46-A6E9-BB07-52EC-294B5230B41F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D5C01A3-07B1-6408-1236-68761C67032C" name="F_CLUBES_NOM_CLUB_UN">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>E62A98FE-3214-957B-0416-6AD520DDD1C1</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E9279A6-62E6-109C-630C-DF2E94964955"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

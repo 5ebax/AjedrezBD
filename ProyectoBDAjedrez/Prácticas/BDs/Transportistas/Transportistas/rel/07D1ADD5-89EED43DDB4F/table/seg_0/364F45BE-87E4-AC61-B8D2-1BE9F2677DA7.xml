@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="364F45BE-87E4-AC61-B8D2-1BE9F2677DA7" name="TR_TRANSPORTISTAS">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>33522FB0-B9AD-31DB-DB2E-897430A9B059</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRASNPORTISTA" id="36EAF909-AF18-F771-97AB-81F4C4460319">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>BB4C97A0-C0EF-38ED-2DF2-7F5EE16FBD6B</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="7917405E-2292-BFF9-FB92-C64E87E120DE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>64EEC736-B42A-E0FF-682B-2D027E68AD8D</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO_MEDIO" id="8B0406A5-4765-4C52-400B-A7A858A5094A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>E59ACB4E-AF6A-F46E-6C62-33392152563F</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>7</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,7,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO_MAX" id="C873F876-6CA2-A6FC-AA1E-C8C7311AEE1F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>44812D6A-C8F2-5709-8B19-63FD1755DB5C</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,6,1</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_OFI_RECOG" id="4FBEDAEE-680F-DAB7-77F3-7DEAB7AFFCFC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>04E6F1A6-495B-8EA0-671A-B651E3B8DE9C</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F4975367-B17A-3890-3A73-A4CF46AB8CCE" referredColumn="3B1C7DE8-8CD6-0EC8-75EA-63EE131154A5"/>
+</associations>
+</Column>
+<Column name="ID_OFI_ENTREG" id="1A467A27-F994-348C-990D-61D7A41CDABF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>9A0966B7-CEB4-81D8-DC76-46148B02EAD2</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABCD3A1A-7D4F-E2DF-AB77-D73413C5679C" referredColumn="3B1C7DE8-8CD6-0EC8-75EA-63EE131154A5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E51953C7-2532-EA76-E3B5-00C9934076B7" name="TR_TRANSPORTISTAS_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>E12E7273-1F14-0FA3-988E-B9EC0010A2C5</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36EAF909-AF18-F771-97AB-81F4C4460319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5A34D5C-B153-240B-4114-E9219B5F864A" name="TR_TRANS_TR_OFI_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>A111C34D-4C7E-B9E5-5168-194F4721F11E</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4FBEDAEE-680F-DAB7-77F3-7DEAB7AFFCFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F74592FE-B558-E60F-F548-8404C2A7F81F" name="TR_TRANS_TR_OFI_FKv2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:26:13 UTC</createdTime>
+<generatorID>334386E6-1381-0B7B-09AF-97F1652E7855</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A467A27-F994-348C-990D-61D7A41CDABF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

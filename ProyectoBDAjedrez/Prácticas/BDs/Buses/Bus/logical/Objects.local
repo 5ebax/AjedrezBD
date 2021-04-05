@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="D16ACDC3-8599-0260-FD11-C70704E7DCCA" name="BUS" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="38A17B0A-CCB6-53B7-46A7-109364D32868" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="73C959B8-B28A-6059-4101-14C2792BAC86" name="BUS CONDUCTOR" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="38A17B0A-CCB6-53B7-46A7-109364D32868" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="C02A283C-748A-5103-8B00-2148721C5331" name="BUS MARCA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="38A17B0A-CCB6-53B7-46A7-109364D32868" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Relation" objectID="1267718F-7A59-8EB8-BD70-F7FF5BB108E4" name="BUS_COND_FK1" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="38A17B0A-CCB6-53B7-46A7-109364D32868" propertySourceId="73C959B8-B28A-6059-4101-14C2792BAC86" propertyTargetId="D16ACDC3-8599-0260-FD11-C70704E7DCCA"/>
+   <object objectType="Relation" objectID="12FF725D-5FA4-BE5F-D612-30AD69C3F60C" name="Relation_2" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Relation" propertyParentId="38A17B0A-CCB6-53B7-46A7-109364D32868" propertySourceId="C02A283C-748A-5103-8B00-2148721C5331" propertyTargetId="D16ACDC3-8599-0260-FD11-C70704E7DCCA"/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

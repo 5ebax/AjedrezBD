@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IMPARTIR_PROFESOR_FK" directorySegmentName="seg_0" id="671729BA-102E-7E56-94DD-A794E07B4A54">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>FD056241-4516-BF77-67F3-3D716FB39FB2</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<sourcePk>7601E5F8-4746-BB03-ABA8-A5F3BAE62423</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D52200CA-EFA1-3D98-C91E-8E505D4DD8AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E4DB1A1B-CDB2-7F2A-A7AE-DD22C352B85F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

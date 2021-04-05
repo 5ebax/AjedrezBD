@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4481189B-0D77-88BC-3348-6F6D6E3A3314" name="EMPLEADO">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>2950C472-6C4D-DD64-B388-00A1CE4F8EAB</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="15E7B2C1-B644-7B31-CA57-5411845CEFA5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>2C745EA6-4E2D-1062-A2C2-4F571DC2A83F</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="CFDB1FBA-8540-9540-A81E-3C360C043FC4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>948B5387-9ACA-F51F-319C-BC5F2B210F73</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA ALTA" id="8D894BA4-F43E-03EB-ACE7-072EE0C75BAF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>35661248-8308-86CA-8431-7772FAD96AD6</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<constraintName>EMPLEADO_FECHA_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="FECHA_ALTA &lt;= TO_DATE(&apos;2018-10-12&apos;,&apos;YYYY-MM-DD&apos;)"/>
+<implementationDef dbType="Oracle Database 11g" definition="FECHA_ALTA &lt;= TO_DATE(&apos;2018-10-12&apos;,&apos;YYYY-MM-DD&apos;)"/>
+</checkConstraint>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SALARIO" id="F57C5B30-5323-7782-553D-733697C306FE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>0B86EF7F-A5C1-6486-0DC2-047FB14A3699</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID DPTO" id="9ED8C7FA-4132-D323-FA68-86BE888024BD">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>BCB66AF4-39EA-A885-4916-5ABF4A0EE3AC</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>3DA0A226-A43C-2AAE-EB0B-AFE772EB2D08</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5A2C11D0-3390-DFDE-E503-4CAE31FF61A6" name="EMPLEADO PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>67FB9427-B336-07C8-4C1D-288CF8CE2F15</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>15E7B2C1-B644-7B31-CA57-5411845CEFA5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

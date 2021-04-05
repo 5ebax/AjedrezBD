@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D692B747-83B8-F5D6-5D1B-1A9362BB976B" containerWithKeyObject="16F534CD-7070-D101-1B27-6374D4A96BF4" localFKIndex="798AAEE5-A62C-02D8-6E25-A5DB2D635AB7" name="F_TRAS_F_JUGADORES_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:54:27 UTC</createdTime>
+<generatorID>8B0788DB-2D3E-FB7A-CFDA-C958E767C5E1</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<referredTableLongName>F_JUGADORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BD0E8BEF-9C33-598E-E1F9-F800C1698802</referredTableID>
+<keyObject>1F7AB842-C7CB-8148-4AE4-3E2B7969435A</keyObject>
+<referredKeyID>1F7AB842-C7CB-8148-4AE4-3E2B7969435A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>N_FEDERACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

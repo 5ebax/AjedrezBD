@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FF527AC6-6591-F312-BC55-1C86F2CBC8FF" containerWithKeyObject="40627EB0-AA4A-AC93-02A9-FFE2C8CD9A4D" localFKIndex="0A151103-F4EE-FE8C-5D82-76CFE5A4E098" name="COMPRA_EMP_FK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>COMPRA_EMP_FK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<referredTableLongName>VENTAS.EMPLEADO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9DB70D51-C5DF-041B-7D5D-4308F8B1A601</referredTableID>
+<keyObject>D048586C-47FE-BE0C-57DA-461E1A4F88D9</keyObject>
+<referredKeyID>D048586C-47FE-BE0C-57DA-461E1A4F88D9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_EMPLEADO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

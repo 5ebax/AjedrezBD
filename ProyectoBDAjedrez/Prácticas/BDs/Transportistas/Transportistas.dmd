@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Transportistas" id="18DA2E01-D8ED-B604-F73C-9C5F9F0795FF" version="3.5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:19:09 UTC</createdTime>
+<ownerDesignName>Transportistas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>18DA2E01-D8ED-B604-F73C-9C5F9F0795FF</designId>
+</OSDM_Design>

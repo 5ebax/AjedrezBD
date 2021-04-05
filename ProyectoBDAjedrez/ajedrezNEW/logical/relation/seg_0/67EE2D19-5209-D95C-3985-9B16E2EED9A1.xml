@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PART_PART_FKV2" directorySegmentName="seg_0" id="67EE2D19-5209-D95C-3985-9B16E2EED9A1">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:05 UTC</createdTime>
+<generatorID>855E19A0-7896-69E9-C28F-187E988E459B</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<sourcePk>A1C4F736-5A8E-BA51-50C8-079241D2690E</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>991CE665-8B44-7FA8-1EC7-4369A52678C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1C19E1AC-23B3-4961-1EF2-E779EDB08010</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

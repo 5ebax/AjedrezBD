@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PARTICIPANTES" directorySegmentName="seg_0" id="20FB944D-87D4-E48C-DC37-898E45FF8948">
+<sourceConnName>AJEDREZ</sourceConnName>
+<sourceObjSchema>AJEDREZ</sourceObjSchema>
+<sourceObjName>PARTICIPANTES</sourceObjName>
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:02:41 UTC</createdTime>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body>DECLARE&lt;br/&gt; d CHAR(5);&lt;br/&gt; e CHAR(5);&lt;br/&gt;BEGIN&lt;br/&gt;    SELECT a.id_rank_tour&lt;br/&gt;    INTO d&lt;br/&gt;        FROM TORNEOS a&lt;br/&gt;        WHERE a.id_torneo=:new.id_torneo;&lt;br/&gt;        &lt;br/&gt;    SELECT b.id_ranking&lt;br/&gt;        INTO  e&lt;br/&gt;        FROM JUGADORES b&lt;br/&gt;        WHERE b.id_jugador=:new.id_jugador;&lt;br/&gt;        &lt;br/&gt;        IF (d != e) THEN &lt;br/&gt;        raise_application_error(-20223,&apos;Error, el jugador no puede participar en un torneo que no sea de su ranking&apos;);&lt;br/&gt;        END IF;&lt;br/&gt;EXCEPTION&lt;br/&gt;    WHEN no_data_found THEN&lt;br/&gt;        NULL;&lt;br/&gt;    WHEN OTHERS THEN&lt;br/&gt;        RAISE;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<columns>D71D7A4B-6E2B-2876-BDBC-74A8BF56BB61, 90151E2F-CE02-80D5-BD76-E449AF3A5FE0</columns>
+<owner>F3D65BDB-627D-A936-DA95-AEEB5D26153B</owner>
+<table>F0C6B812-CF03-DC44-6B09-43BC73BE0178</table>
+</TriggerOraclev10g>

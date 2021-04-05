@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="88FB33D5-DA5D-4549-7DDB-824C3A7DD872" name="PLAN ESTUDIOS">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>B22CA6F3-C465-390A-5C0D-60F0EBDBAA3F</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID MODULO" id="6DBC1D45-3817-F761-C0F8-23598BF831D5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>1FC76D49-3DE5-9949-03E6-14FB37BBBF95</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>D2CF39D7-56FC-5128-BB17-BC611D834BCF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CICLO" id="3F78576A-81DB-395C-1188-AC763D054045">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>8CDE9803-4EC4-0A4C-1D38-7AFDEAD31F89</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>60E3E6B8-0E88-921E-733F-CA9A99AF2FE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CURSO" id="A57DD416-92A3-7FA3-4846-6AE78DB8D09D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>8CDE9803-4EC4-0A4C-1D38-7AFDEAD31F89</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<referedAttribute>A61EB8DA-4AFA-38E0-01B3-2D5621CA97EB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BDA036BA-B55F-2C4F-D71F-B2D617D2F72A" name="CUR MOD PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>A7C689F2-A5FF-5D93-75CF-EC3B517F2450</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6DBC1D45-3817-F761-C0F8-23598BF831D5</attributeRef>
+<attributeRef>3F78576A-81DB-395C-1188-AC763D054045</attributeRef>
+<attributeRef>A57DD416-92A3-7FA3-4846-6AE78DB8D09D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

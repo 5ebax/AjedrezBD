@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C02A283C-748A-5103-8B00-2148721C5331" name="BUS MARCA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>B737AA54-B50F-C2B9-C4E3-9BEAE154C0AF</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="MARCA BUS" id="DF1A458C-3BF7-DBB7-2CB7-3B9E7F6DB7C9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>B76815A0-252A-C7DD-1B7E-9CDAE72C9969</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA CREACION" id="91B427EB-9F78-1091-2710-DC5C82EE96E4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>89179A4D-6636-B333-E53A-3D7A95930BEB</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PAIS" id="1ECA462D-38C1-30B7-1259-88630CD782F2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>380E57FB-E885-940A-0DBF-9C4E56D4F168</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TELF" id="4C032121-E08A-072A-5A67-FCFB7E6B75AA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>DC4481E4-FDF3-6B2D-2B4C-48C777B1ECF8</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FAX" id="B0D459D8-6BF5-1931-4A65-FED04A837F1E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>269BAB4A-26E6-AD63-C6FC-529FDB3D4851</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E95964F2-78D4-8AA3-84DD-902E69DDD8FF" name="BUS MARCA PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>141EEA9A-BDF5-3C10-8F80-D52CF2D943EC</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DF1A458C-3BF7-DBB7-2CB7-3B9E7F6DB7C9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_JUG_CLUB_FK1" directorySegmentName="seg_0" id="7A2912BD-70E3-36D7-D899-96D026B9A201">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>04F7E1A6-3124-7901-F281-D9829022C74B</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<sourcePk>752C2AC4-41F1-99BB-DB4C-5666C7A32BB5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89D27BF5-2F8F-E322-2577-30F30FDFEAD2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>31724B67-07C3-2C50-6842-AB236E6CE093</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

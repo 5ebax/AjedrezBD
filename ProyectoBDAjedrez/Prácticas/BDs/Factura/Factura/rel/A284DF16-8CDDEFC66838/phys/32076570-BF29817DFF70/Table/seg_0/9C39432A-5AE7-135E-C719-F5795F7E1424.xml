@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FAC_CLIENTE" directorySegmentName="seg_0" id="9C39432A-5AE7-135E-C719-F5795F7E1424">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<schemaObject>FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1BBDD119-42D8-46C1-3243-74EEBB5FAFD3</segment>
+<tableSpace>375CDAFB-9058-F492-4375-B1D6306ECA9C</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CP" id="0C43AF51-30AF-AAFE-4909-159CEB95C48F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="7555D9DF-F5F6-AE1C-7002-AEC8EA1EFB01">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CLIENTE" id="794BDC7D-C315-53C3-2836-47748A4A65E7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FE_NACIMIENTO" id="BADBAD46-5E11-4915-FE0D-82659C57D62A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="FAC_CLIENTE_PK" id="B8EA00F0-F62C-3028-8C70-5C7407A8FBD1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<schemaObject>FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931</schemaObject>
+<segment>24B59E6C-8B8A-8788-E4A5-0385F33F42E4</segment>
+<tableSpace>375CDAFB-9058-F492-4375-B1D6306ECA9C</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FAC_CLIENTE_PK" id="C56138C1-E9AF-1CCE-D477-23EDF03BC579">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<segment>24B59E6C-8B8A-8788-E4A5-0385F33F42E4</segment>
+<tableSpace>375CDAFB-9058-F492-4375-B1D6306ECA9C</tableSpace>
+<existingIndex>B8EA00F0-F62C-3028-8C70-5C7407A8FBD1</existingIndex>
+<indexSegment>24B59E6C-8B8A-8788-E4A5-0385F33F42E4</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

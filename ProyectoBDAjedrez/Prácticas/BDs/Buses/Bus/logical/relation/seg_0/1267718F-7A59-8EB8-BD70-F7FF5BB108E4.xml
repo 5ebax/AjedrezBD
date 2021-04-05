@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BUS_COND_FK1" directorySegmentName="seg_0" id="1267718F-7A59-8EB8-BD70-F7FF5BB108E4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>4877A98E-222F-566B-586D-34BB23D87625</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<sourcePk>2141CC89-9E25-1D64-D6A1-6D4730E1B379</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>73C959B8-B28A-6059-4101-14C2792BAC86</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D16ACDC3-8599-0260-FD11-C70704E7DCCA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

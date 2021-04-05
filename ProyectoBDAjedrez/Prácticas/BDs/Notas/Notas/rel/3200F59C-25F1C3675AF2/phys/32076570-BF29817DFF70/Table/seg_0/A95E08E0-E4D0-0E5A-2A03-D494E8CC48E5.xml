@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ESTUDIANTE" directorySegmentName="seg_0" id="A95E08E0-E4D0-0E5A-2A03-D494E8CC48E5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TELEFONO" id="0F4D8153-89B5-20A5-0144-7D299665BD04">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ESTUD" id="15E2FED4-5129-6DDC-10AC-6EFC88857A5A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DNI" id="592719BC-A1FD-67AB-4851-A31096347B46">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECH_NACI" id="6D360D60-406F-B312-87DA-6F88F37B7BBE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="AD06D8E4-BBB9-BA2D-E3FB-85FE37E129B5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CP" id="BBDC73BD-9F12-64F7-BE67-20C91616E964">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ESTUDIANTE_PK" id="0D8526CB-41DF-F590-3517-139BF96C8DFD">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="ESTUDIANTE_DNI_UN" id="A74AC340-85C6-4664-E767-256415D94E5C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev11g>

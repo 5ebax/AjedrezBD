@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="BUS_MARCA" directorySegmentName="seg_0" id="D15EB414-6300-5B71-76C6-78418A67DB04">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="PAIS" id="267170BE-DCF9-F40C-2048-5ADD4C289F5B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TELF" id="333F9EC0-9DC2-3CD6-25F9-BEAE3851D222">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA_CREACION" id="8E4AFEDC-5892-B701-9E93-326D0C114298">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MARCA_BUS" id="DA472883-FCEB-082B-2BF1-380F797D7DD2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FAX" id="E96CB245-C937-95C1-2640-B7B392733390">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="BUS_MARCA_PK" id="96B9D73D-80A2-B3F0-FFBE-F15443725150">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<ownerDesignName>Bus</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

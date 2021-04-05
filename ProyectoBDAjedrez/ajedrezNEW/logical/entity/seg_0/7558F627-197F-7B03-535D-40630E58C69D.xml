@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7558F627-197F-7B03-535D-40630E58C69D" name="RANKINGS">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>17E54495-9DD8-E0FA-B63A-CB41A3A34D16</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID RANKING" id="42338AB9-CA18-86CF-F38B-878A129A8E8E">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>996D3744-BB69-1D67-05CD-F0329BF913EC</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DESCRIPCION" id="3D1084D0-8B41-4EF3-967E-C8AAD6A19681">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>00072E9E-9997-4BC3-0D14-67F60D4C16A4</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06192772-7043-4660-CEE5-99A8D190761F" name="RANKINGS PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>144CDEF4-0D15-9293-D2A3-662B3AA71656</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>42338AB9-CA18-86CF-F38B-878A129A8E8E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

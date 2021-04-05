@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B738D233-FA89-F396-6F26-239961BA1EC6" schemaObject="FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931" name="FAC_PRODUCTOS">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_PRODUCTOS</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_PRODUCTO" id="3E2FE52D-5459-4FE0-F112-CBCCA1E65E47">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_PRODUCTOS</sourceObjSchema>
+<sourceObjName>ID_PRODUCTO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="C089FD29-C84E-E57B-71B2-23E99CDF83AE">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_PRODUCTOS</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FEC_CREACION" id="7B945C49-2AF7-44DA-9F38-6F4DF4D6DE71">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_PRODUCTOS</sourceObjSchema>
+<sourceObjName>FEC_CREACION</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRECIO" id="C405FD23-B70E-7BC6-05AF-FD8143A72255">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_PRODUCTOS</sourceObjSchema>
+<sourceObjName>PRECIO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5373FCAB-C0AF-3B3B-057E-D914A4FDD75E" name="FAC_PRODUCTOS_PK">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_PRODUCTOS_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E2FE52D-5459-4FE0-F112-CBCCA1E65E47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED89A8F4-BE47-BB82-1DF3-E067B5559313" schemaObject="FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931" name="FAC_PRODUCTOS_PK">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_PRODUCTOS_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E2FE52D-5459-4FE0-F112-CBCCA1E65E47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

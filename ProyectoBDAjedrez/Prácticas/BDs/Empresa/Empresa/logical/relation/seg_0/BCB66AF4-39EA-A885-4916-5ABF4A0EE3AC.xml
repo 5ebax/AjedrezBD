@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMPLEADO_DPTO_FK" directorySegmentName="seg_0" id="BCB66AF4-39EA-A885-4916-5ABF4A0EE3AC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:17:05 UTC</createdTime>
+<generatorID>BE67E7F8-6588-4EBE-3B14-5DC7E0CBE7E9</generatorID>
+<ownerDesignName>Empresa</ownerDesignName>
+<engineerTo>
+<item key="31A9742C-C6FB-6A42-9270-7D6B89A7CE87" value="true"/>
+</engineerTo>
+<sourcePk>3D36FB1E-461C-A601-7274-8306D6C820E7</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0F317207-B2B3-BFA5-B928-0047ACB46929</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4481189B-0D77-88BC-3348-6F6D6E3A3314</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

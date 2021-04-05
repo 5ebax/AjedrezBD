@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="FICHA_ALUMNO" directorySegmentName="seg_0" id="612E47EB-A846-7695-8A25-D72ED5B77C7B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CALIFICACION" id="7B53D1D4-385C-CF1C-11AA-ADC92911F941">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CICLO" id="AAF64F89-B65A-B558-DCDA-640C8A65099B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_MODULO" id="BD28464B-4E1E-FD4D-A4D3-218C8A8DD8B6">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_CURSO" id="BF2DFE3E-FBDA-27E3-9B58-1D4F57DC30B4">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOTAS_ID_NOTA" id="CA5FCF5F-8E3B-2375-71BE-9FE1BC133E9F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FICHA_NOTAS_FK" id="25C17222-F33E-96DA-A590-C4F79511D3F3">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FICHA_EST_FK" id="404AAB52-DFB2-CAA1-EDB2-90F350FEA65A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="FICHA_ALUMNO_PK" id="26A9D2F5-78E3-EFB5-5DAD-C4790503C104">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

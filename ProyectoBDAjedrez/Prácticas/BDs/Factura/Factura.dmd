@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Factura" id="C3FB952C-8687-0F5E-DB9F-F2B0321D459A" version="3.5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:05:46 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C3FB952C-8687-0F5E-DB9F-F2B0321D459A</designId>
+</OSDM_Design>

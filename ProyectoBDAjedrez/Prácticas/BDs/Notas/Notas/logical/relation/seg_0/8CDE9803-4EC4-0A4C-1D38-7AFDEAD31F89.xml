@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CUR_MOD_CURSO_FK" directorySegmentName="seg_0" id="8CDE9803-4EC4-0A4C-1D38-7AFDEAD31F89">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:27:04 UTC</createdTime>
+<generatorID>AE19157C-877C-5172-EAD7-0FA3A49514BE</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<engineerTo>
+<item key="3200F59C-6652-3A35-5B84-25F1C3675AF2" value="true"/>
+</engineerTo>
+<sourcePk>A1A368C7-D922-6FA7-9689-500F6BC6E17D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>29C4F579-A527-EE78-462D-A424DCD18A85</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>88FB33D5-DA5D-4549-7DDB-824C3A7DD872</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

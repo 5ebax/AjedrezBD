@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="31724B67-07C3-2C50-6842-AB236E6CE093" name="F JUGADORES">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>F6FE98DA-E491-5A99-9E34-5280EEEAA6F4</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="N FEDERACION" id="5B0348D3-5F33-2E21-CD4B-6E61A3974FD2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>98BA4585-B7D6-628E-8851-BF180C92F02F</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DNI" id="AC3BE1C4-CE34-43A3-F11A-060B8E2DEE36">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>5C8625FB-6C5B-161F-27D1-D60E34EA151B</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9</dataTypeSize>
+<ownDataTypeParameters>9,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PRECIO JUG" id="FF2732EE-F6D7-31E1-1204-B717545B1959">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>811C29C0-D04B-E61C-DA76-A98C31B4D044</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,11,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="F NACIMIENTO" id="D7D6D983-BFEC-6234-CB2C-38356DA3C386">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>962B9A06-AFD0-C879-B76E-4527F301C5AB</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N CAMISETA" id="2995127C-E703-E8F3-62CF-476F8B4A41C8">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>2DB82426-EF88-EEB1-4EB7-3F60A9A8562D</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CLUB" id="56ABF716-3074-AD43-C0B8-465E6F258466">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>7A2912BD-70E3-36D7-D899-96D026B9A201</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<referedAttribute>6CEC597A-FF1A-B9C0-0AAA-A77AB639494F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="027AD94A-AD67-8B4E-F7AC-103D1E99A23A" name="F JUGADORES PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>552CBF63-493D-A66B-B07F-068FEE6863B6</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5B0348D3-5F33-2E21-CD4B-6E61A3974FD2</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="DEE3EE80-6F01-898B-CA3E-10721A2F454B" name="F JUGADORES UK1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>A29FD511-40E5-762C-6818-A3440487C818</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>AC3BE1C4-CE34-43A3-F11A-060B8E2DEE36</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

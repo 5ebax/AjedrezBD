@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="349A23F4-2A2C-FB84-CAF6-68BF6669BEDD" name="PATRO_TOR">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>1CD007D9-52BF-AECB-6198-7FB9A414C090</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TORNEO" id="208740A7-AE8C-29B6-17AD-EBF001AA864D">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>FD662712-4438-10EE-C956-D5430D5A036B</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="61AC0647-B4BE-E732-11D8-EF0B4355DE52" referredColumn="CB6388F5-478F-C4E5-BD48-917550E7B381"/>
+</associations>
+</Column>
+<Column name="ID_PATRO" id="C63855C7-B4D5-94B9-C98B-5CBDD8E6F81B">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>BF5727FA-FE4D-972E-6DB1-FEE1B6C5F75A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5F72919F-551D-FFBD-1F46-F0344F27C49A" referredColumn="EDF5CF6A-F48E-8511-7C6C-865980BE9085"/>
+</associations>
+</Column>
+<Column name="SUBVENCION" id="0FC55319-347A-B6D1-3818-6978B63CC8C2">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>A8E3B064-13AE-4226-CFE8-0A4271329810</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80A90D83-2918-68EB-7FBE-7DF8456CBBFC" name="PATRO_TOR_PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>65B91913-2F49-D9BC-4575-5973660F91A8</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208740A7-AE8C-29B6-17AD-EBF001AA864D"/>
+<colUsage columnID="C63855C7-B4D5-94B9-C98B-5CBDD8E6F81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4572762B-E7F8-3DC9-B2E7-01AB81AAEA76" name="PATRO_TOR_PAT_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>A00157F4-9D5D-4BDD-CBDF-0F1B3B2B3253</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C63855C7-B4D5-94B9-C98B-5CBDD8E6F81B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDB2CBAC-D89A-9033-05FA-EF9CFE9D9B00" name="PATRO_TOR_TORN_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>62D46CBF-5DF4-AFCB-3533-2A2D2FE24874</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208740A7-AE8C-29B6-17AD-EBF001AA864D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

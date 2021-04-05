@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D15EB414-6300-5B71-76C6-78418A67DB04" name="BUS_MARCA">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>C02A283C-748A-5103-8B00-2148721C5331</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MARCA_BUS" id="DA472883-FCEB-082B-2BF1-380F797D7DD2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>DF1A458C-3BF7-DBB7-2CB7-3B9E7F6DB7C9</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CREACION" id="8E4AFEDC-5892-B701-9E93-326D0C114298">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>91B427EB-9F78-1091-2710-DC5C82EE96E4</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS" id="267170BE-DCF9-F40C-2048-5ADD4C289F5B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>1ECA462D-38C1-30B7-1259-88630CD782F2</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TELF" id="333F9EC0-9DC2-3CD6-25F9-BEAE3851D222">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>4C032121-E08A-072A-5A67-FCFB7E6B75AA</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FAX" id="E96CB245-C937-95C1-2640-B7B392733390">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>B0D459D8-6BF5-1931-4A65-FED04A837F1E</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96B9D73D-80A2-B3F0-FFBE-F15443725150" name="BUS_MARCA_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>E95964F2-78D4-8AA3-84DD-902E69DDD8FF</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA472883-FCEB-082B-2BF1-380F797D7DD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

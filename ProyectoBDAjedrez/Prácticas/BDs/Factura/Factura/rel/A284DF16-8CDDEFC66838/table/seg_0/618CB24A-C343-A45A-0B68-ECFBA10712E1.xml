@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="618CB24A-C343-A45A-0B68-ECFBA10712E1" schemaObject="FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931" name="FAC_CABECERA">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_CABECERA</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_FACTURA" id="E1A1A476-D6DE-56B7-98FA-C2138F93A92C">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_CABECERA</sourceObjSchema>
+<sourceObjName>ID_FACTURA</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CLIENTE" id="57427F9C-EE29-88AB-9A9F-D1A1BD800FA4">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_CABECERA</sourceObjSchema>
+<sourceObjName>ID_CLIENTE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4DCB99B2-598D-1FCC-7C30-451653765454" referredColumn="794BDC7D-C315-53C3-2836-47748A4A65E7"/>
+</associations>
+</Column>
+<Column name="FECHA_FACTURA" id="5D25F470-086F-E082-3E23-78488360E7EA">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>FAC_CABECERA</sourceObjSchema>
+<sourceObjName>FECHA_FACTURA</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4905A86E-D77B-DE7D-4A77-DCAC68C0F65C" name="FAC_CABECERA_PK">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_CABECERA_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A1A476-D6DE-56B7-98FA-C2138F93A92C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AB9F10BF-9860-FEB1-3B0C-BFF2270B95B5" schemaObject="FC2ACF9B-6FEC-D8FE-E3D3-BB127AEFE931" name="FAC_CABECERA_PK">
+<sourceConnName>USU2</sourceConnName>
+<sourceObjSchema>USU2</sourceObjSchema>
+<sourceObjName>FAC_CABECERA_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A1A476-D6DE-56B7-98FA-C2138F93A92C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82F3639C-D6D6-C535-6426-8A0971921783" name="FAC_CAB_CLIEN_FK1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:06:37 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57427F9C-EE29-88AB-9A9F-D1A1BD800FA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

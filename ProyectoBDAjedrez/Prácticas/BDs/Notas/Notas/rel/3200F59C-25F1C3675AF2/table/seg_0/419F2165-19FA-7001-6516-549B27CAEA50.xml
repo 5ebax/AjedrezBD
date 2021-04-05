@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="419F2165-19FA-7001-6516-549B27CAEA50" name="HORARIO_CLASES">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>E4DB1A1B-CDB2-7F2A-A7AE-DD22C352B85F</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MODULO" id="852C9DAC-F9F3-86C0-D70B-EBBED65DD66C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>6C753AA8-5641-1620-3985-0839C8D02DC8</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91478BE1-79AB-F628-A86E-83781CB419CF" referredColumn="EADF0B9E-75F7-5D1C-D8E3-DE8184C0CA78"/>
+</associations>
+</Column>
+<Column name="ID_CICLO" id="084F3AC1-8805-4E5E-D60D-447E847D9EDB">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>312C0D74-64FF-DF93-94FD-28A5B14D9936</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49626C98-F857-71B6-8651-E5FE78D2AA62" referredColumn="60E44C30-522E-2E5E-4910-1BD8E83F025D"/>
+<colAssociation fkAssociation="91478BE1-79AB-F628-A86E-83781CB419CF" referredColumn="39231550-AA65-D7DC-F17C-94509D2313B3"/>
+</associations>
+</Column>
+<Column name="ID_CURSO" id="1D57C3FC-6A8A-57BB-98B1-9285B72DDEA5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>F4DAD752-153B-A89B-4B24-1D96C2FDD1B6</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49626C98-F857-71B6-8651-E5FE78D2AA62" referredColumn="9808AE70-ECB4-616B-2B9B-953D227AC58D"/>
+<colAssociation fkAssociation="91478BE1-79AB-F628-A86E-83781CB419CF" referredColumn="9FFE6A14-3581-CDA6-B7E9-686060281B39"/>
+</associations>
+</Column>
+<Column name="ID_PROF" id="583E2B1F-8C6E-7543-310D-9FC576E28A16">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>C74C1393-0BCA-AC2B-A4EC-14A3E1D73C9A</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7CB85B6-513B-CCAC-ACFA-1A6D2466E41E" referredColumn="6DC75E0F-E18B-D8CE-4143-A93C49585567"/>
+</associations>
+</Column>
+<Column name="ID_GRUPO" id="D583BDC9-8B16-26EB-AAAC-9A872297D6E0">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>0DA87B38-EF68-E2F8-A53D-93AF01C4671E</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49626C98-F857-71B6-8651-E5FE78D2AA62" referredColumn="3A7E33F5-8600-7439-2DFF-B0FF415370F7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51F2666D-D3F6-F7F8-F539-7791B4948FBA" name="HORARIO_CLASES_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>885F7697-4DD6-9B17-DF9F-A601A6CA3CFD</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="852C9DAC-F9F3-86C0-D70B-EBBED65DD66C"/>
+<colUsage columnID="084F3AC1-8805-4E5E-D60D-447E847D9EDB"/>
+<colUsage columnID="1D57C3FC-6A8A-57BB-98B1-9285B72DDEA5"/>
+<colUsage columnID="583E2B1F-8C6E-7543-310D-9FC576E28A16"/>
+<colUsage columnID="D583BDC9-8B16-26EB-AAAC-9A872297D6E0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8CDD7F8D-0347-4F45-5038-2471F406C553" name="HOR_CLAS_PLAN_EST_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>87F215D2-77B7-09BD-4154-91CC37F6241E</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="852C9DAC-F9F3-86C0-D70B-EBBED65DD66C"/>
+<colUsage columnID="084F3AC1-8805-4E5E-D60D-447E847D9EDB"/>
+<colUsage columnID="1D57C3FC-6A8A-57BB-98B1-9285B72DDEA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C3C7D0ED-F66A-C69D-67A9-8B516CD597C3" name="HOR_CLAS_PROF_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>671729BA-102E-7E56-94DD-A794E07B4A54</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="583E2B1F-8C6E-7543-310D-9FC576E28A16"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="339E0DF3-4A69-6273-315F-8C35DC8B0A85" name="HOR_CLAS_GRU_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>15B2366D-7275-1035-CBB8-500B6889B660</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D583BDC9-8B16-26EB-AAAC-9A872297D6E0"/>
+<colUsage columnID="084F3AC1-8805-4E5E-D60D-447E847D9EDB"/>
+<colUsage columnID="1D57C3FC-6A8A-57BB-98B1-9285B72DDEA5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

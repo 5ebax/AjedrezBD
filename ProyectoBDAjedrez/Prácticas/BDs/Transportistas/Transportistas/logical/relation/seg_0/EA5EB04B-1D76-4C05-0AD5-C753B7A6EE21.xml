@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="TR_SOLI_OFI_ENTREG_FK" directorySegmentName="seg_0" id="EA5EB04B-1D76-4C05-0AD5-C753B7A6EE21">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:24:48 UTC</createdTime>
+<generatorID>926A70E8-9D7D-8C49-5B2E-A0E23616F8AE</generatorID>
+<ownerDesignName>Transportistas</ownerDesignName>
+<engineerTo>
+<item key="07D1ADD5-EB95-FE66-F9CD-89EED43DDB4F" value="true"/>
+</engineerTo>
+<sourcePk>3CE2E39B-7B44-F358-2FCC-0D0237D16F7E</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3577F765-685A-4199-C43F-63A4773DB28B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2FC7BCEF-0BB8-1258-BC28-3BE6844C46DD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

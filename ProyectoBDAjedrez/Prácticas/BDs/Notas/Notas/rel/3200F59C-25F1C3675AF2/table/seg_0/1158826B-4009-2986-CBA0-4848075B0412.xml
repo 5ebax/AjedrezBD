@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1158826B-4009-2986-CBA0-4848075B0412" name="GRUPO">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>EED664B0-2566-A66A-FAF7-7F3A83CE1FFA</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_CURSO" id="9808AE70-ECB4-616B-2B9B-953D227AC58D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>0E276AE5-9CA4-CEB7-7FAC-70DC69DA0B5B</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEBADDF1-A7BE-E631-D63E-3CFFA838823B" referredColumn="7781E7FD-0AF6-954B-3F4A-16FE5C210016"/>
+</associations>
+</Column>
+<Column name="ID_GRUPO" id="3A7E33F5-8600-7439-2DFF-B0FF415370F7">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>EAA0BEA6-69A7-CC90-AD16-AC9849EF53FD</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CICLO" id="60E44C30-522E-2E5E-4910-1BD8E83F025D">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>90C848B1-65A8-974E-0D2C-1564E4269088</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AEBADDF1-A7BE-E631-D63E-3CFFA838823B" referredColumn="50149608-7897-C1A5-37D5-68D5DFF8FB35"/>
+</associations>
+</Column>
+<Column name="ID_PROF" id="823FB0EE-B61F-DFAB-CB6D-6157112E57EC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>9D6892D2-B484-565E-BBC7-7D7C049CF603</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64F5916B-6427-EC61-8673-4FF3401DA7DE" referredColumn="6DC75E0F-E18B-D8CE-4143-A93C49585567"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4E99D675-73AE-FC01-D268-02B7F14B19D9" name="GRUPO_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>728EE634-9301-82D0-21C3-CDB95EBCA5F6</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A7E33F5-8600-7439-2DFF-B0FF415370F7"/>
+<colUsage columnID="60E44C30-522E-2E5E-4910-1BD8E83F025D"/>
+<colUsage columnID="9808AE70-ECB4-616B-2B9B-953D227AC58D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5F428BC-EC46-FFCE-3C86-BDBB28B20B53" name="GRUPO__IDX">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9DADB6E4-E2B0-2DA0-16CA-9C6878950A49</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="823FB0EE-B61F-DFAB-CB6D-6157112E57EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7A00C9F-7DBE-36F1-A23F-AE8628EEEBB2" name="GRUPO_CURSO_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>3514B6CE-DEF2-09EF-7060-366F14CCD441</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60E44C30-522E-2E5E-4910-1BD8E83F025D"/>
+<colUsage columnID="9808AE70-ECB4-616B-2B9B-953D227AC58D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F59F1FEC-CC1E-8F13-E4D5-1F514746EAFB" name="GRUPO_PROF_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>9DADB6E4-E2B0-2DA0-16CA-9C6878950A49</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="823FB0EE-B61F-DFAB-CB6D-6157112E57EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

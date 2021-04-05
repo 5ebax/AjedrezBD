@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1835825B-FEA9-AD22-27DD-91A925E675AC" name="PARTICIPANTES">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>991CE665-8B44-7FA8-1EC7-4369A52678C4</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TORNEO" id="D38DF25D-ABF9-27E0-0CC5-40C883ABD36A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>4B83AB97-EF2F-9382-9B6C-6E16910FE656</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4A1C0E8C-D7CB-B463-16FB-79DDBF0C391E" referredColumn="CB6388F5-478F-C4E5-BD48-917550E7B381"/>
+</associations>
+</Column>
+<Column name="ID_JUGADOR" id="E2AEBCEC-308B-ACA1-AE0F-13CAE5E4311F">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>0A7904A9-E58E-4ED4-FAA5-5DC18221E4BE</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8004F7BA-E0D0-FF7B-EFD3-39C95B2E2F66" referredColumn="94D4C8DC-AC2B-ABAC-3167-E9539EAAA554"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="76CE3854-989D-95F6-F723-17311B9BB50A" name="PARTICIPANTES_PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:08 UTC</createdTime>
+<generatorID>A1C4F736-5A8E-BA51-50C8-079241D2690E</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D38DF25D-ABF9-27E0-0CC5-40C883ABD36A"/>
+<colUsage columnID="E2AEBCEC-308B-ACA1-AE0F-13CAE5E4311F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA3DCE2F-4034-8A59-E2A0-3AA5DED0133E" name="PARTI_JUG_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>8D7EB377-7039-18F0-6807-501924BADB60</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2AEBCEC-308B-ACA1-AE0F-13CAE5E4311F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DBD4076-1D0D-E2EF-EA90-E47A76EF527F" name="PARTI_TORN_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>86D02F23-A1B3-D4FD-D18A-B75289A7C427</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D38DF25D-ABF9-27E0-0CC5-40C883ABD36A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

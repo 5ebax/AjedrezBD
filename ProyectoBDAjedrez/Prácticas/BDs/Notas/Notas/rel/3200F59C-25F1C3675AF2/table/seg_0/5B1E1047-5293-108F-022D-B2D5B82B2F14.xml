@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B1E1047-5293-108F-022D-B2D5B82B2F14" name="PLAN_ESTUDIOS">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>88FB33D5-DA5D-4549-7DDB-824C3A7DD872</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="MODULO_ID_MODULO" id="EADF0B9E-75F7-5D1C-D8E3-DE8184C0CA78">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>6DBC1D45-3817-F761-C0F8-23598BF831D5</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1663048A-0551-2FF6-A4E8-7AF1D357F1A8" referredColumn="30E6BE4A-A558-43AA-D46A-E5F8176A7A0C"/>
+</associations>
+</Column>
+<Column name="CURSO_ID_CICLO" id="39231550-AA65-D7DC-F17C-94509D2313B3">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>3F78576A-81DB-395C-1188-AC763D054045</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2069DFB-7548-2146-F5B0-BAB4443722E9" referredColumn="50149608-7897-C1A5-37D5-68D5DFF8FB35"/>
+</associations>
+</Column>
+<Column name="CURSO_ID_CURSO" id="9FFE6A14-3581-CDA6-B7E9-686060281B39">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>A57DD416-92A3-7FA3-4846-6AE78DB8D09D</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2069DFB-7548-2146-F5B0-BAB4443722E9" referredColumn="7781E7FD-0AF6-954B-3F4A-16FE5C210016"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8E49F473-3509-D7F6-4381-B2C4EA858545" name="PLAN_ESTUDIOS_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>BDA036BA-B55F-2C4F-D71F-B2D617D2F72A</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EADF0B9E-75F7-5D1C-D8E3-DE8184C0CA78"/>
+<colUsage columnID="39231550-AA65-D7DC-F17C-94509D2313B3"/>
+<colUsage columnID="9FFE6A14-3581-CDA6-B7E9-686060281B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F5A6BC-D11E-5A57-39BA-F56DF89D4936" name="PLAN_ESTUDIOS_CURSO_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>8CDE9803-4EC4-0A4C-1D38-7AFDEAD31F89</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39231550-AA65-D7DC-F17C-94509D2313B3"/>
+<colUsage columnID="9FFE6A14-3581-CDA6-B7E9-686060281B39"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CFF81F7F-5148-28BA-8F5C-4CB28CA5CB8D" name="PLAN_ESTUDIOS_MODULO_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>1FC76D49-3DE5-9949-03E6-14FB37BBBF95</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EADF0B9E-75F7-5D1C-D8E3-DE8184C0CA78"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

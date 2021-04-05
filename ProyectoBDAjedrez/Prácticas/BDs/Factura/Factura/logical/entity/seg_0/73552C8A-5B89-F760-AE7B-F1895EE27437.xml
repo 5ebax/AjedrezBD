@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73552C8A-5B89-F760-AE7B-F1895EE27437" name="FAC DETALLES">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>2DBDD788-17D6-80C2-5B6C-E93A3446B525</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CANTIDAD" id="2C4EE67D-31D9-982F-C103-8FBC9D1B5942">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>EDD8C6D4-A6A8-71FB-1144-4CCFAE388947</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID FACTURA" id="44A0DDB1-A3F1-0B2D-CC3D-9861387D3602">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>7B52C4B6-F990-3A6C-1505-C0A2107DFC01</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<referedAttribute>9E6B762D-F063-17B5-818B-EFB6F358879E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PRODUCTO" id="3E106974-A103-EC4A-A384-072A676DFF72">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:22 UTC</createdTime>
+<generatorID>8E9B390A-8112-78E0-BC16-4E5D06CAB121</generatorID>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<referedAttribute>531C52A0-5693-043A-DDC2-AEFFABE430F4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AA24278C-478F-C86B-F524-15038580FA30" name="FAC DETALLES PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:07:40 UTC</createdTime>
+<ownerDesignName>Factura</ownerDesignName>
+<engineerTo>
+<item key="A284DF16-53B3-9011-EC0F-8CDDEFC66838" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>44A0DDB1-A3F1-0B2D-CC3D-9861387D3602</attributeRef>
+<attributeRef>3E106974-A103-EC4A-A384-072A676DFF72</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4078CB1-8006-B08F-CC51-F5A84CEFD36E" containerWithKeyObject="009B4B79-B1C8-E09F-A62B-7F87E813A065" localFKIndex="984FD6F2-F95D-142F-D346-85E7BF9E9CDE" name="JUG_RANK_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>5577F35B-EBAE-A328-0C9E-C760026A2D2A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<referredTableLongName>RANKINGS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5E6B7C99-F286-2961-51E6-A5D30AB09D59</referredTableID>
+<keyObject>07543425-E94D-CAE1-6939-1C7298CECEFF</keyObject>
+<referredKeyID>07543425-E94D-CAE1-6939-1C7298CECEFF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_RANKING</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

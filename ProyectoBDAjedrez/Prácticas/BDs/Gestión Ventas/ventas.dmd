@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ventas" id="FEBF19BF-0A38-B3CC-F4B0-E9155ACF719A" version="3.5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:56:50 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>FEBF19BF-0A38-B3CC-F4B0-E9155ACF719A</designId>
+</OSDM_Design>

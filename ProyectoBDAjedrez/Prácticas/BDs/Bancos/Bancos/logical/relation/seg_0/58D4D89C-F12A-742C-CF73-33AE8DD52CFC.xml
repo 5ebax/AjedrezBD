@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BAN_CUENTA_CLIENTE_FK" directorySegmentName="seg_0" id="58D4D89C-F12A-742C-CF73-33AE8DD52CFC">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 09:59:00 UTC</createdTime>
+<generatorID>F6DC0133-4FD2-E57A-C0E0-C18DFD520A8F</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<engineerTo>
+<item key="8A6E1603-C80D-294B-9C5A-4D9512E8B6F5" value="true"/>
+</engineerTo>
+<sourcePk>68344980-3CE0-5DA0-5125-E2AB98F23A0D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D51D7B1-B7D2-4632-47A9-54A599936D1A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D2EB33A4-7135-A3E1-F4F4-2C3630824AF0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

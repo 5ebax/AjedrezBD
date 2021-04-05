@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="COMPRA_PROV_FK" directorySegmentName="seg_0" id="46AB1848-669F-5F48-5C62-E41F29E197D5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>0F812F2C-29B3-C1A8-E760-62A7296F394D</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<sourcePk>F205C0DF-214A-D30A-E502-760CF397678F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8FD8BDB4-4A0B-CFAE-63A8-51B2559C9CBC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D7C3DCF7-2344-6FD0-BC6D-9AC997DA4F93</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

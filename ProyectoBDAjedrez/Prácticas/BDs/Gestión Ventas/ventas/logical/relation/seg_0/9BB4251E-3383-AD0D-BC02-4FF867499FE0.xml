@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SEC_DEPAR_FK" directorySegmentName="seg_0" id="9BB4251E-3383-AD0D-BC02-4FF867499FE0">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>C920005E-6C29-892D-5D84-0B20EF6E6D1E</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<sourcePk>4D9E6BA9-EECE-D5A7-CF32-1D6CD002A0CA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>008BE3CE-29C8-F247-56CA-F23C75E37DCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E84C96F-C275-EEC1-0F4E-C94B795692F0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_TRAS_CLUB_LLEGADA_FK1" directorySegmentName="seg_0" id="C8D9741C-E4DA-E3EF-47EE-D3CD02ABC91F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>53BD4C3F-63D8-DC7D-6A75-71A4678AF27B</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<sourcePk>752C2AC4-41F1-99BB-DB4C-5666C7A32BB5</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>89D27BF5-2F8F-E322-2577-30F30FDFEAD2</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64F1052E-65CD-9743-6696-BE09B6BBC5CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

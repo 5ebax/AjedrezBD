@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="49241DAC-4B60-1159-C6A1-434162683E30" containerWithKeyObject="EEC8CD90-3FF3-A9BA-E865-6B6CC3AEE525" localFKIndex="1D0FB738-D1C6-3F64-0BFB-630261DEEDD4" name="BAN_TRANSFER_FKv2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>115BB273-5535-C03A-5E12-18142A922058</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<referredTableLongName>BAN_CUENTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D59024D3-8868-1496-749E-D56DFED08826</referredTableID>
+<keyObject>8173627D-3E5B-4995-D509-571808FE59B3</keyObject>
+<referredKeyID>8173627D-3E5B-4995-D509-571808FE59B3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ENTIDAD,ID_SUCURSAL,ID_N_CUENTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

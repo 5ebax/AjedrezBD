@@ -1,0 +1,185 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9DB70D51-C5DF-041B-7D5D-4308F8B1A601" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="EMPLEADO">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>EMPLEADO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EMPLEADO" id="661D9DD5-89F1-FEE4-5242-D0FDB9D352B4">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>ID_EMPLEADO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_DEPART" id="ADADCDB8-1642-2FFA-32C2-3C412106A002">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>ID_DEPART</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="624D87B5-61D0-E69B-E735-28073E1743BD" referredColumn="6ED95E94-583C-5902-6CFB-959DD7E8F5BE"/>
+</associations>
+</Column>
+<Column name="DNI" id="00301A63-5A4B-78DF-F1D9-1DD751EFD139">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>DNI</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>9 BYTE</dataTypeSize>
+<ownDataTypeParameters>9 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="B3760B2C-67AF-E578-169D-F9A1C71EF2F5">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CONT" id="4128F40F-A400-C652-9ED0-717E3D2A9774">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>FECHA_CONT</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SALARIO" id="D855D334-C158-1032-CA85-C4509D027A16">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>SALARIO</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EMAIL" id="8EBE5B64-4208-0407-54BA-D0C53985931B">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>EMPLEADO</sourceObjSchema>
+<sourceObjName>EMAIL</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D048586C-47FE-BE0C-57DA-461E1A4F88D9" name="EMPLEADO_PK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>EMPLEADO_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="661D9DD5-89F1-FEE4-5242-D0FDB9D352B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="95991AD7-FD26-777B-2935-29154A793E19" name="EMPLEADO_DNI_UN">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>EMPLEADO_DNI_UN</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00301A63-5A4B-78DF-F1D9-1DD751EFD139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0DE16934-DEF1-A1CD-57E7-C1D424E7B8D8" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="EMPLEADO_DNI_UN">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>EMPLEADO_DNI_UN</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00301A63-5A4B-78DF-F1D9-1DD751EFD139"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3D4B8634-905D-E1EE-60C9-7D7996FAB779" schemaObject="1BF478D6-3439-D102-E81F-50D5DCE3A441" name="EMPLEADO_PK">
+<sourceConnName>VENTAS</sourceConnName>
+<sourceObjSchema>VENTAS</sourceObjSchema>
+<sourceObjName>EMPLEADO_PK</sourceObjName>
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="661D9DD5-89F1-FEE4-5242-D0FDB9D352B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DDA7B5C-F8B5-14BB-3880-DE092A3CF3C5" name="EMP_DEPAR_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:43 UTC</createdTime>
+<ownerDesignName>ventas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADADCDB8-1642-2FFA-32C2-3C412106A002"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

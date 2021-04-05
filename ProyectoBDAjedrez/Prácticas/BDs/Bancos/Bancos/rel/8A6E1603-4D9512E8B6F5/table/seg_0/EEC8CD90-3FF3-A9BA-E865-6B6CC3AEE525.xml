@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EEC8CD90-3FF3-A9BA-E865-6B6CC3AEE525" name="BAN_TRANSFER">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>5E48BE3E-EC44-8C60-CA19-5D4152210F03</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_TRANSFER" id="84A54DC6-A1FD-37D8-E9C3-1CB6D7D7E415">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>E2695757-7B49-9CCE-1029-A350C0D12EFF</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_ENT_ORIGI" id="7E9F3A24-9A04-AE91-F2B9-7314B948ECD0">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>D02D3873-A281-FF5B-BCAB-B0ACA9F4D834</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49241DAC-4B60-1159-C6A1-434162683E30" referredColumn="99956A60-4265-A015-7A94-E79E42E63E9A"/>
+</associations>
+</Column>
+<Column name="ID_SUCL_ORIG" id="A086F0F7-0923-BD5F-4EDC-F714EF1EDC33">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>87727636-8B8B-E90F-1724-B9A25EE4CD12</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49241DAC-4B60-1159-C6A1-434162683E30" referredColumn="ED293618-CEF1-BB18-1B50-5C76BABFCE14"/>
+</associations>
+</Column>
+<Column name="ID_N_CUENTA_ORIG" id="A55EADA1-07B3-9B7E-D06B-09F4A6EE4466">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>8A2F073C-2E43-0B1C-37F6-4F0610E50781</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="49241DAC-4B60-1159-C6A1-434162683E30" referredColumn="4DD5500B-02F0-206C-11C5-F1806439CD65"/>
+</associations>
+</Column>
+<Column name="ID_ENTIDAD_DEST" id="74B9734A-E573-494C-0F24-DA142C70870B">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>5952E393-57F0-BD0A-6DDB-4D295C8B3CBB</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55CD5337-5D93-E0E9-1787-4927B149191B" referredColumn="99956A60-4265-A015-7A94-E79E42E63E9A"/>
+</associations>
+</Column>
+<Column name="ID_SUCURSAL_DEST" id="9502BE01-17D6-9DDB-9293-E4451F8C87A9">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>3A2AE357-C570-D471-E118-06819BFE15A4</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55CD5337-5D93-E0E9-1787-4927B149191B" referredColumn="ED293618-CEF1-BB18-1B50-5C76BABFCE14"/>
+</associations>
+</Column>
+<Column name="ID_N_CUENTA_DEST" id="27516AF1-EF91-0E7D-204A-7C3A10FC9840">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>398574E8-78D0-B261-31C2-A1F1F021D114</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55CD5337-5D93-E0E9-1787-4927B149191B" referredColumn="4DD5500B-02F0-206C-11C5-F1806439CD65"/>
+</associations>
+</Column>
+<Column name="FECHA" id="44212E5D-B35A-6547-2159-AD2DBEF47935">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>F88ADDDE-8100-6EB0-9F00-A8C9AA119A4D</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IMPORTE" id="B0CBD931-AF4C-A2CB-B467-C455B79FAE7C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>12C00110-1003-4AE6-2032-799E00AA4B54</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<constraintName>BAN_TRANSFER_IMPORTE_CHK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="IMPORTE &gt; 0"/>
+<implementationDef dbType="Oracle Database 11g" definition="IMPORTE &gt; 0"/>
+</checkConstraint>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONCEPTO" id="5E809278-64C6-2100-74C9-6A5EF51C14BF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>DDA79FFD-16C7-AD7B-2E2D-E9AE0724972E</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="BENEFICIARIO" id="87F1ACEC-E395-5414-5C7A-607CFE994E2F">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>06437690-5047-B1DE-66ED-38650D62E957</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D412FC6B-7015-F6E3-2C35-FB0053F01195" name="BAN_TRANSFER_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>7F406387-0D6A-D260-A041-1547A7E56725</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84A54DC6-A1FD-37D8-E9C3-1CB6D7D7E415"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C384ECC-B973-8A09-ABE1-C7F08BADA561" name="BAN_TRANSF_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>49294D7B-D8AF-6118-3FB4-484AB0F1EE90</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B9734A-E573-494C-0F24-DA142C70870B"/>
+<colUsage columnID="9502BE01-17D6-9DDB-9293-E4451F8C87A9"/>
+<colUsage columnID="27516AF1-EF91-0E7D-204A-7C3A10FC9840"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D0FB738-D1C6-3F64-0BFB-630261DEEDD4" name="BAN_TRANSFER_FKv2">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 10:07:51 UTC</createdTime>
+<generatorID>115BB273-5535-C03A-5E12-18142A922058</generatorID>
+<ownerDesignName>Bancos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E9F3A24-9A04-AE91-F2B9-7314B948ECD0"/>
+<colUsage columnID="A086F0F7-0923-BD5F-4EDC-F714EF1EDC33"/>
+<colUsage columnID="A55EADA1-07B3-9B7E-D06B-09F4A6EE4466"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

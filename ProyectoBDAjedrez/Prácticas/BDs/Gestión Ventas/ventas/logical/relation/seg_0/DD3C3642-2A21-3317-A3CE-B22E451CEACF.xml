@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EMP_DEPAR_FK" directorySegmentName="seg_0" id="DD3C3642-2A21-3317-A3CE-B22E451CEACF">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>624D87B5-61D0-E69B-E735-28073E1743BD</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<sourcePk>4D9E6BA9-EECE-D5A7-CF32-1D6CD002A0CA</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>008BE3CE-29C8-F247-56CA-F23C75E37DCB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C4C63FC9-7AF6-9C2D-847D-9B88908B4F2D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

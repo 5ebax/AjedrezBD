@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8DCF0240-C279-5BFC-00A7-0BACED31EF83" name="JUGADORES">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>B11F1220-B059-85B7-5E0D-6A25757D82FA</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID JUGADOR" id="7BDF3E39-C437-5093-37E7-100576F65B1E">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>8BB4E60C-1F97-71C8-7521-80B87B378AD0</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CLUB" id="6F362BDA-833A-18C7-02B7-E10A8733230A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>7B14D6AE-527E-1128-BA3A-D5B6D16A0338</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<referedAttribute>682EB3A7-12E0-42D1-05D5-60CF3EDDF481</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID RANKING" id="0DBE09F8-2F43-0EDC-C168-6A04696B858A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>5577F35B-EBAE-A328-0C9E-C760026A2D2A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<referedAttribute>42338AB9-CA18-86CF-F38B-878A129A8E8E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="F32974AD-100E-466B-E2E8-88942A70E721">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>D3D373FB-1CDB-2083-123E-DEBF52F26797</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDO" id="C71DF56C-2C4B-C78B-CCA9-32A53EC1F71A">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>EE6830FE-D537-F656-49E6-9D937D587577</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 BYTE</dataTypeSize>
+<ownDataTypeParameters>30 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CP" id="4F020C8D-4B24-7D9F-EAD3-CD5AA95F9593">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>3A496D5F-479A-43F1-7F0C-F970FF25586A</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,8,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="9F9AE491-5195-F7B9-C9BB-EF4881C790B8">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>6953D38E-844C-DBCE-F205-2DB6ED5D20BF</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<constraintName>JUG_EMAIL_CHK</constraintName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 BYTE</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Generic Constraint" definition="EMAIL LIKE &apos;%@%.__&apos; OR&lt;br/&gt;EMAIL LIKE &apos;%@%.___&apos;"/>
+<implementationDef dbType="Oracle Database 11g" definition="EMAIL LIKE &apos;%@%.__&apos; OR&lt;br/&gt;EMAIL LIKE &apos;%@%.___&apos;"/>
+</checkConstraint>
+<ownDataTypeParameters>40 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECH NACI" id="A0FA14C5-328F-183A-847E-074DD765724E">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>303A5028-8B63-A011-ECDD-84504376523C</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E58908D9-65D7-A573-D5E7-8DC2CF328E44" name="JUGADORES PK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:09:04 UTC</createdTime>
+<generatorID>C1DE36E5-4FE4-8A62-2086-3CCE67CAC938</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<engineerTo>
+<item key="C6CD8438-8C5B-4000-7A05-C9FAED4074AC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7BDF3E39-C437-5093-37E7-100576F65B1E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="156E74C3-FB7D-971C-4FC6-C6D4179009B0" containerWithKeyObject="612E47EB-A846-7695-8A25-D72ED5B77C7B" localFKIndex="25C17222-F33E-96DA-A590-C4F79511D3F3" name="FICHA_NOTAS_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:44:17 UTC</createdTime>
+<generatorID>B70E349A-6560-1893-E5FC-94AC70F2505E</generatorID>
+<ownerDesignName>Notas</ownerDesignName>
+<referredTableLongName>NOTAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>86453D02-B773-E740-8E5D-D394798E745D</referredTableID>
+<keyObject>49A9A0A2-D67C-B594-A285-BB78C17A0D0A</keyObject>
+<referredKeyID>49A9A0A2-D67C-B594-A285-BB78C17A0D0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_NOTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

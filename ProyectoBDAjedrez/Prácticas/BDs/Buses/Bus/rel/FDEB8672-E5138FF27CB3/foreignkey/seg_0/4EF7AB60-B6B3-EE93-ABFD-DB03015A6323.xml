@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4EF7AB60-B6B3-EE93-ABFD-DB03015A6323" containerWithKeyObject="3B4EAD15-81F3-966B-0580-C5EE9407D5E4" localFKIndex="BC380C59-11CA-5AAD-A860-2478299FC0FC" name="BUS_BUS_MARCA_FK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>12FF725D-5FA4-BE5F-D612-30AD69C3F60C</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<referredTableLongName>BUS_MARCA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D15EB414-6300-5B71-76C6-78418A67DB04</referredTableID>
+<keyObject>96B9D73D-80A2-B3F0-FFBE-F15443725150</keyObject>
+<referredKeyID>96B9D73D-80A2-B3F0-FFBE-F15443725150</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>MARCA_BUS</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DET_VENTA_ART_FK" directorySegmentName="seg_0" id="C9922A81-1498-3BE0-9ED4-AE5D866C406A">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-12 19:57:51 UTC</createdTime>
+<generatorID>3283D405-F716-AAE4-A5EE-B3C7C8B08594</generatorID>
+<ownerDesignName>ventas</ownerDesignName>
+<engineerTo>
+<item key="9441EFBA-2F0C-D00B-A1BE-3012EFF65885" value="true"/>
+</engineerTo>
+<sourcePk>685F916F-2D58-16A0-CBE2-680FEE0381A5</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2069CFBB-D6DB-0803-3AC0-2920E031781A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0F8E92BC-BC28-EA8A-DC3F-59CAA54C86EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

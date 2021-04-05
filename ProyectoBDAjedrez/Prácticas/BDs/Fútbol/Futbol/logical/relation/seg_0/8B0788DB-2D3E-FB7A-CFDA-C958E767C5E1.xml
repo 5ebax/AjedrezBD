@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="F_TRASPASOS_JUG_FK1" directorySegmentName="seg_0" id="8B0788DB-2D3E-FB7A-CFDA-C958E767C5E1">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 08:49:34 UTC</createdTime>
+<generatorID>02814D0E-964D-0072-4C74-45978ACF692E</generatorID>
+<ownerDesignName>Futbol</ownerDesignName>
+<engineerTo>
+<item key="E4EFE6C4-C54D-852C-15CA-B611F6020987" value="true"/>
+</engineerTo>
+<sourcePk>027AD94A-AD67-8B4E-F7AC-103D1E99A23A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>31724B67-07C3-2C50-6842-AB236E6CE093</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64F1052E-65CD-9743-6696-BE09B6BBC5CD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

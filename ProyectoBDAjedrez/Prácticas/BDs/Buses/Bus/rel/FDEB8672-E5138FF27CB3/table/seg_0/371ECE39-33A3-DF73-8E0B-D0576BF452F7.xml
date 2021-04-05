@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="371ECE39-33A3-DF73-8E0B-D0576BF452F7" name="BUS_CONDUCTOR">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>73C959B8-B28A-6059-4101-14C2792BAC86</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI_COND" id="9043B997-FF05-5AD4-DCD2-DC484FFD3A75">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>7DE13B5D-4F03-2DF9-8547-F20DAE907A51</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDOS" id="520149FC-B02E-AEBB-5C1E-55DBD576B407">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>D8A7BC7F-54AF-53EA-D233-2674E3272CEE</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="7E0457CA-A638-77A1-B709-3FC9C5D9FBED">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>A4E2C552-E765-AA4C-760B-E633DF013F1E</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NAC" id="8F11B256-60A1-339A-062B-6DE0AFD3CF25">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>C67F59D3-BC07-B003-B05A-B51C75383172</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CARNET" id="D265033F-BA43-7575-0A5C-6DBD00C91A67">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>A2FE29FA-CE38-6E83-6559-B7C6B85FF2F8</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_SS" id="EB3C7035-4AFF-8E9C-C1D5-2B22912904F0">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>51834F4C-830E-C116-BC93-0066E54F5089</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMINA" id="788DD6E7-ECCF-491F-E842-69D0FB407A9C">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>4F48DFA9-7E24-0F76-377D-B9F58D478A94</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B442C6E-E55A-48FF-171E-1BA6A1A9F9DC" name="BUS_CONDUCTOR_PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>2141CC89-9E25-1D64-D6A1-6D4730E1B379</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9043B997-FF05-5AD4-DCD2-DC484FFD3A75"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEB9D696-D5C9-C56C-91E1-F66C0B1A8B1E" name="BUS_CONDUCTOR_NUM_SS_UN">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:01:52 UTC</createdTime>
+<generatorID>4AB0D16B-A8BD-C0DC-9078-2B9E163EAD6F</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EB3C7035-4AFF-8E9C-C1D5-2B22912904F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

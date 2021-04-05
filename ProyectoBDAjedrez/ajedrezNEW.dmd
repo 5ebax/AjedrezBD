@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ajedrezNEW" id="25C849D2-E177-CFA8-7944-91BB83D79B69" version="3.5">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-03-28 19:01:49 UTC</createdTime>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>25C849D2-E177-CFA8-7944-91BB83D79B69</designId>
+</OSDM_Design>

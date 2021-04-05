@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="924E0977-CED3-9981-A0E3-5F1844CE7826" containerWithKeyObject="009B4B79-B1C8-E09F-A62B-7F87E813A065" localFKIndex="33AB66B3-3467-D8ED-23B8-FB73C2A33084" name="JUG_CLUB_FK">
+<createdBy>Sebas</createdBy>
+<createdTime>2019-04-09 21:30:09 UTC</createdTime>
+<generatorID>7B14D6AE-527E-1128-BA3A-D5B6D16A0338</generatorID>
+<ownerDesignName>ajedrezNEW</ownerDesignName>
+<referredTableLongName>CLUBES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EE6BCA65-D039-390C-73FD-CC4A61C7B525</referredTableID>
+<keyObject>E77336B9-33AA-069B-D199-2A60657CDD10</keyObject>
+<referredKeyID>E77336B9-33AA-069B-D199-2A60657CDD10</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CLUB</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

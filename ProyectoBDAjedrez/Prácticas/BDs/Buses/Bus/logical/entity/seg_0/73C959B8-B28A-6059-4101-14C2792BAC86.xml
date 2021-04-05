@@ -1,0 +1,149 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="73C959B8-B28A-6059-4101-14C2792BAC86" name="BUS CONDUCTOR">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>FBAB2015-DA9D-4670-A06E-7DE9707C2221</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI COND" id="7DE13B5D-4F03-2DF9-8547-F20DAE907A51">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>99D0340B-681B-B235-7792-F8AC38D833C9</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="APELLIDOS" id="D8A7BC7F-54AF-53EA-D233-2674E3272CEE">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>959FCAC4-5253-DD34-8C15-315486EDB137</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="A4E2C552-E765-AA4C-760B-E633DF013F1E">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>FF0E84D2-1E28-B9DA-3D23-F2AC4DCB8CC4</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA NAC" id="C67F59D3-BC07-B003-B05A-B51C75383172">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>1E076600-3A38-7B76-FD5B-6A82A9B7467C</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA CARNET" id="A2FE29FA-CE38-6E83-6559-B7C6B85FF2F8">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>28683CD1-D9BA-301C-F16D-8F04E7AAB1FC</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM SS" id="51834F4C-830E-C116-BC93-0066E54F5089">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>8EB501ED-EDF6-49BF-9762-2862488A561C</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 BYTE</dataTypeSize>
+<ownDataTypeParameters>10 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMINA" id="4F48DFA9-7E24-0F76-377D-B9F58D478A94">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>19D820BC-BF90-CF2C-FA61-77BEBA91CF0D</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2141CC89-9E25-1D64-D6A1-6D4730E1B379" name="BUS CONDUCTOR PK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>DC867348-13E0-FE8A-56CE-39DDA1D8A3CE</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7DE13B5D-4F03-2DF9-8547-F20DAE907A51</attributeRef>
+</usedAttributes>
+</identifier>
+<identifier id="4AB0D16B-A8BD-C0DC-9078-2B9E163EAD6F" name="BUS CONDUCTOR SS UK">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 18:00:33 UTC</createdTime>
+<generatorID>DAF49968-A9E2-B632-76D5-55ED2A2C06BA</generatorID>
+<ownerDesignName>Bus</ownerDesignName>
+<engineerTo>
+<item key="FDEB8672-524B-0F71-E675-E5138FF27CB3" value="true"/>
+</engineerTo>
+<usedAttributes>
+<attributeRef>51834F4C-830E-C116-BC93-0066E54F5089</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

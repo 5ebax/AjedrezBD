@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Notas" id="4D3ACA01-FBCC-14AB-C0B6-9A82B0D286B4" version="3.5">
+<createdBy>SEBASTIAN JIMENEZ</createdBy>
+<createdTime>2018-11-19 11:12:49 UTC</createdTime>
+<ownerDesignName>Notas</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4D3ACA01-FBCC-14AB-C0B6-9A82B0D286B4</designId>
+</OSDM_Design>
